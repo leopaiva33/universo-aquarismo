@@ -1,0 +1,61 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Página não encontrada — Universo Aquarismo" description="Esta página não existe.">
+  <section class="not-found">
+    <div class="container">
+      <div class="fish">🐟</div>
+      <h1>404</h1>
+      <p>Ops! Parece que este peixe escapou do aquário.</p>
+      <p class="sub">A página que você procura não existe ou foi removida.</p>
+      <a href="/" class="btn">← Voltar ao Início</a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+.not-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 3rem;
+}
+
+.fish {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: swim 3s ease-in-out infinite;
+}
+
+@keyframes swim {
+  0%, 100% { transform: translateX(-10px) rotate(-5deg); }
+  50% { transform: translateX(10px) rotate(5deg); }
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+p { color: var(--color-muted); font-size: 1.1rem; margin-bottom: 0.5rem; }
+.sub { font-size: 0.9rem; margin-bottom: 2rem; }
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: var(--color-primary);
+  color: #0a0e1a;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn:hover { background: var(--color-secondary); color: #0a0e1a; }
+</style>

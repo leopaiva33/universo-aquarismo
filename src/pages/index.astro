@@ -1,0 +1,242 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const featuredPosts = sortedPosts.filter(p => p.data.featured);
+const recentPosts = sortedPosts.slice(0, 6);
+---
+
+<Layout
+  title="Universo Aquarismo — Iluminação para Aquário"
+  description="Guias completos sobre iluminação LED para aquário, plantas aquáticas e tudo sobre aquarismo em português."
+>
+  <Hero />
+
+  <!-- Posts em destaque -->
+  {featuredPosts.length > 0 && (
+    <section class="section" id="featured">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">⭐ Artigos em Destaque</h2>
+          <a href="/blog" class="section-link">Ver todos →</a>
+        </div>
+        <div class="grid">
+          {featuredPosts.slice(0, 3).map(post => (
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              slug={post.slug}
+              pubDate={post.data.pubDate}
+              category={post.data.category}
+              readTime={post.data.readTime}
+              featured={true}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- Categorias -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section-title">📂 Categorias</h2>
+      <div class="categories">
+        <a href="/blog" class="category-card">
+          <span class="cat-icon">💡</span>
+          <span class="cat-name">Iluminação LED</span>
+          <span class="cat-count">Guias completos</span>
+        </a>
+        <a href="/blog" class="category-card">
+          <span class="cat-icon">🌿</span>
+          <span class="cat-name">Plantas Aquáticas</span>
+          <span class="cat-count">Cuidados e dicas</span>
+        </a>
+        <a href="/blog" class="category-card">
+          <span class="cat-icon">🐠</span>
+          <span class="cat-name">Peixes</span>
+          <span class="cat-count">Espécies e cuidados</span>
+        </a>
+        <a href="/blog" class="category-card">
+          <span class="cat-icon">🔧</span>
+          <span class="cat-name">Equipamentos</span>
+          <span class="cat-count">Reviews e comparativos</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Artigos recentes -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">🆕 Artigos Recentes</h2>
+        <a href="/blog" class="section-link">Ver todos →</a>
+      </div>
+      <div class="grid">
+        {recentPosts.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            description={post.data.description}
+            slug={post.slug}
+            pubDate={post.data.pubDate}
+            category={post.data.category}
+            readTime={post.data.readTime}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA newsletter -->
+  <section class="section">
+    <div class="container">
+      <div class="newsletter-box">
+        <div class="newsletter-content">
+          <h2>📬 Fique por dentro das novidades</h2>
+          <p>Receba os melhores artigos sobre aquarismo diretamente no seu e-mail.</p>
+        </div>
+        <form class="newsletter-form" action="#" method="post">
+          <input type="email" placeholder="seu@email.com" required aria-label="Seu e-mail" />
+          <button type="submit">Inscrever-se</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+.section {
+  padding-block: 4rem;
+}
+
+.section--alt {
+  background: var(--color-surface);
+  border-block: 1px solid var(--color-border);
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.section-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.section-link:hover { color: var(--color-secondary); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.5rem;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.category-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-2px);
+}
+
+.cat-icon { font-size: 2rem; line-height: 1; }
+.cat-name { font-size: 1rem; font-weight: 700; color: var(--color-heading); }
+.cat-count { font-size: 0.8rem; color: var(--color-muted); }
+
+.newsletter-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-2) 100%);
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-glow);
+  flex-wrap: wrap;
+}
+
+.newsletter-content h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.newsletter-content p {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  flex: 1;
+  min-width: 220px;
+  padding: 0.7rem 1rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.newsletter-form input:focus {
+  border-color: var(--color-primary);
+}
+
+.newsletter-form button {
+  padding: 0.7rem 1.5rem;
+  background: var(--color-primary);
+  color: #0a0e1a;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  white-space: nowrap;
+}
+
+.newsletter-form button:hover {
+  background: var(--color-secondary);
+  transform: translateY(-1px);
+}
+</style>

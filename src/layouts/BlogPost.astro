@@ -1,0 +1,187 @@
+---
+import Layout from './Layout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  category?: string;
+  tags?: string[];
+  readTime?: number;
+}
+
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  category = 'Aquarismo',
+  tags = [],
+  readTime = 5,
+} = Astro.props;
+
+const formattedDate = pubDate.toLocaleDateString('pt-BR', {
+  day: '2-digit',
+  month: 'long',
+  year: 'numeric',
+});
+
+const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
+  day: '2-digit',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<Layout title={title} description={description} type="article">
+  <article class="blog-post">
+    <!-- Hero do post -->
+    <header class="post-header">
+      <div class="container--narrow">
+        <div class="post-category">{category}</div>
+        <h1 class="post-title">{title}</h1>
+        <p class="post-description">{description}</p>
+        <div class="post-meta">
+          <time datetime={pubDate.toISOString()}>📅 {formattedDate}</time>
+          {updatedDate && (
+            <span>🔄 Atualizado em {formattedUpdated}</span>
+          )}
+          <span>⏱ {readTime} min de leitura</span>
+        </div>
+        {tags.length > 0 && (
+          <div class="post-tags">
+            {tags.map(tag => <span class="tag">#{tag}</span>)}
+          </div>
+        )}
+      </div>
+    </header>
+
+    <!-- Adsense slot (topo do artigo) -->
+    <!--
+    <div class="ad-slot container--narrow">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXX" data-ad-slot="XXXX" data-ad-format="auto"></ins>
+    </div>
+    -->
+
+    <!-- Conteúdo -->
+    <div class="post-content container--narrow prose">
+      <slot />
+    </div>
+
+    <!-- Adsense slot (fim do artigo) -->
+    <!--
+    <div class="ad-slot container--narrow">
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXX" data-ad-slot="XXXX" data-ad-format="auto"></ins>
+    </div>
+    -->
+
+    <!-- Footer do post -->
+    <footer class="post-footer container--narrow">
+      {tags.length > 0 && (
+        <div class="post-tags">
+          {tags.map(tag => <span class="tag">#{tag}</span>)}
+        </div>
+      )}
+      <a href="/blog" class="back-link">← Voltar para todos os artigos</a>
+    </footer>
+  </article>
+</Layout>
+
+<style>
+.post-header {
+  background: linear-gradient(180deg, var(--color-surface) 0%, transparent 100%);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 3rem 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.post-category {
+  display: inline-block;
+  padding: 0.3rem 0.9rem;
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.25rem;
+}
+
+.post-title {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--color-heading);
+  margin-bottom: 1rem;
+}
+
+.post-description {
+  font-size: 1.1rem;
+  color: var(--color-muted);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 60ch;
+}
+
+.post-meta {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.post-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 0.25rem 0.7rem;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  color: var(--color-muted);
+}
+
+.post-content {
+  padding-block: 0.5rem 2rem;
+}
+
+.ad-slot {
+  margin-block: 2rem;
+  background: var(--color-surface-2);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  text-align: center;
+  min-height: 100px;
+}
+
+.post-footer {
+  padding-block: 2rem 1rem;
+  border-top: 1px solid var(--color-border);
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.back-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.back-link:hover { color: var(--color-secondary); }
+</style>

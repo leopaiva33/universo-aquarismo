@@ -1,0 +1,139 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+// Categorias únicas
+const categories = ['Todos', ...new Set(sortedPosts.map(p => p.data.category))];
+---
+
+<Layout
+  title="Todos os Artigos — Blog de Aquarismo"
+  description="Artigos completos sobre iluminação para aquário, plantas aquáticas, peixes e muito mais."
+>
+  <section class="blog-hero">
+    <div class="container">
+      <h1>📚 Todos os Artigos</h1>
+      <p>Conteúdo completo sobre iluminação para aquário e aquarismo em geral.</p>
+    </div>
+  </section>
+
+  <section class="blog-content">
+    <div class="container">
+      <!-- Filtro por categoria -->
+      <div class="filter-bar">
+        {categories.map(cat => (
+          <button class:list={['filter-btn', { active: cat === 'Todos' }]} data-category={cat}>
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      <!-- Grid de artigos -->
+      <div class="grid" id="postsGrid">
+        {sortedPosts.map(post => (
+          <div class="post-wrapper" data-category={post.data.category}>
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              slug={post.slug}
+              pubDate={post.data.pubDate}
+              category={post.data.category}
+              readTime={post.data.readTime}
+              featured={post.data.featured}
+            />
+          </div>
+        ))}
+      </div>
+
+      {sortedPosts.length === 0 && (
+        <div class="empty-state">
+          <p>🐟 Nenhum artigo publicado ainda. Volte em breve!</p>
+        </div>
+      )}
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const filterBtns = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const wrappers = document.querySelectorAll<HTMLDivElement>('.post-wrapper');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cat = btn.dataset.category ?? 'Todos';
+
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      wrappers.forEach(w => {
+        const show = cat === 'Todos' || w.dataset.category === cat;
+        w.style.display = show ? '' : 'none';
+      });
+    });
+  });
+</script>
+
+<style>
+.blog-hero {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 3rem 2rem;
+}
+
+.blog-hero h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.blog-hero p {
+  color: var(--color-muted);
+  font-size: 1.05rem;
+}
+
+.blog-content {
+  padding-block: 3rem 5rem;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.filter-btn {
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: var(--font-sans);
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background: rgba(0, 212, 255, 0.1);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem;
+  color: var(--color-muted);
+  font-size: 1.1rem;
+}
+</style>

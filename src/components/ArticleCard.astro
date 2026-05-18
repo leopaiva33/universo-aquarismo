@@ -1,0 +1,136 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  slug: string;
+  pubDate: Date;
+  category?: string;
+  readTime?: number;
+  featured?: boolean;
+}
+
+const { title, description, slug, pubDate, category = 'Aquarismo', readTime = 5, featured = false } = Astro.props;
+
+const formattedDate = pubDate.toLocaleDateString('pt-BR', {
+  day: '2-digit',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<article class:list={['card', { 'card--featured': featured }]}>
+  <div class="card-badge">{category}</div>
+  <div class="card-body">
+    <h2 class="card-title">
+      <a href={`/blog/${slug}`}>{title}</a>
+    </h2>
+    <p class="card-desc">{description}</p>
+    <div class="card-meta">
+      <time datetime={pubDate.toISOString()}>📅 {formattedDate}</time>
+      <span>⏱ {readTime} min de leitura</span>
+    </div>
+  </div>
+  <a href={`/blog/${slug}`} class="card-cta" aria-label={`Ler: ${title}`}>
+    Ler artigo →
+  </a>
+</article>
+
+<style>
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  position: relative;
+}
+
+.card:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-3px);
+}
+
+.card--featured {
+  border-color: rgba(0, 212, 255, 0.4);
+  background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-surface-2) 100%);
+}
+
+.card--featured::before {
+  content: '⭐ Destaque';
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+}
+
+.card-badge {
+  background: rgba(0, 212, 255, 0.1);
+  color: var(--color-primary);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.card-body {
+  padding: 1.25rem 1.25rem 0.75rem;
+  flex: 1;
+}
+
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.35;
+}
+
+.card-title a {
+  color: var(--color-heading);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.card-title a:hover { color: var(--color-primary); }
+
+.card-desc {
+  color: var(--color-muted);
+  font-size: 0.88rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.78rem;
+  color: var(--color-muted);
+  flex-wrap: wrap;
+}
+
+.card-cta {
+  margin: 0.75rem 1.25rem 1.25rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  transition: gap 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+}
+
+.card-cta:hover { color: var(--color-secondary); }
+</style>

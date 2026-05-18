@@ -1,0 +1,140 @@
+/* =========================================================
+   Universo Aquarismo — Global Styles
+   Tema: Dark mode com azul/ciano aquático
+   ========================================================= */
+
+:root {
+  --color-bg:        #0a0e1a;
+  --color-surface:   #111827;
+  --color-surface-2: #1a2235;
+  --color-border:    #1e3a5f;
+  --color-primary:   #00d4ff;
+  --color-primary-dim: #0099cc;
+  --color-secondary: #00ff88;
+  --color-text:      #e2e8f0;
+  --color-muted:     #8892a4;
+  --color-heading:   #f8fafc;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Georgia', 'Times New Roman', serif;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.15);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --transition: 0.2s ease;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.7;
+  min-height: 100vh;
+  /* Subtle animated background */
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0, 212, 255, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 30% at 80% 80%, rgba(0, 255, 136, 0.04) 0%, transparent 60%);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-heading);
+  line-height: 1.3;
+  font-weight: 700;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Utility */
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.container--narrow {
+  max-width: 780px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-primary-dim); }
+
+/* Selection */
+::selection {
+  background: rgba(0, 212, 255, 0.25);
+  color: var(--color-heading);
+}
+
+/* Article prose styles */
+.prose h2 { font-size: 1.75rem; margin-top: 2.5rem; margin-bottom: 1rem; color: var(--color-primary); }
+.prose h3 { font-size: 1.35rem; margin-top: 2rem; margin-bottom: 0.75rem; }
+.prose p { margin-bottom: 1.25rem; }
+.prose ul, .prose ol { padding-left: 1.5rem; margin-bottom: 1.25rem; }
+.prose li { margin-bottom: 0.5rem; }
+.prose strong { color: var(--color-heading); font-weight: 600; }
+.prose blockquote {
+  border-left: 3px solid var(--color-primary);
+  padding: 0.75rem 1.25rem;
+  background: var(--color-surface-2);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  margin: 1.5rem 0;
+  color: var(--color-muted);
+  font-style: italic;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+.prose th {
+  background: var(--color-surface-2);
+  color: var(--color-primary);
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border: 1px solid var(--color-border);
+}
+.prose td {
+  padding: 0.65rem 1rem;
+  border: 1px solid var(--color-border);
+}
+.prose tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+.prose a { color: var(--color-primary); border-bottom: 1px dotted var(--color-primary); }
+.prose a:hover { color: var(--color-secondary); border-color: var(--color-secondary); }
+.prose code {
+  background: var(--color-surface-2);
+  color: var(--color-secondary);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
