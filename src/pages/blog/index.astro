@@ -44,6 +44,7 @@ const categories = ['Todos', ...new Set(sortedPosts.map(p => p.data.category))];
               category={post.data.category}
               readTime={post.data.readTime}
               featured={post.data.featured}
+              heroImage={post.data.heroImage}
             />
           </div>
         ))}

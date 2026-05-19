@@ -9,6 +9,7 @@ interface Props {
   category?: string;
   tags?: string[];
   readTime?: number;
+  heroImage?: string;
 }
 
 const {
@@ -19,6 +20,7 @@ const {
   category = 'Aquarismo',
   tags = [],
   readTime = 5,
+  heroImage,
 } = Astro.props;
 
 const formattedDate = pubDate.toLocaleDateString('pt-BR', {
@@ -38,6 +40,11 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
   <article class="blog-post">
     <!-- Hero do post -->
     <header class="post-header">
+      {heroImage && (
+        <div class="post-hero-image">
+          <img src={heroImage} alt={title} loading="eager" />
+        </div>
+      )}
       <div class="container--narrow">
         <div class="post-category">{category}</div>
         <h1 class="post-title">{title}</h1>
@@ -89,6 +96,20 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
 </Layout>
 
 <style>
+.post-hero-image {
+  width: 100%;
+  max-height: 420px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.post-hero-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  display: block;
+}
+
 .post-header {
   background: linear-gradient(180deg, var(--color-surface) 0%, transparent 100%);
   border-bottom: 1px solid var(--color-border);

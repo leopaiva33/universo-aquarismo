@@ -7,9 +7,10 @@ interface Props {
   category?: string;
   readTime?: number;
   featured?: boolean;
+  heroImage?: string;
 }
 
-const { title, description, slug, pubDate, category = 'Aquarismo', readTime = 5, featured = false } = Astro.props;
+const { title, description, slug, pubDate, category = 'Aquarismo', readTime = 5, featured = false, heroImage } = Astro.props;
 
 const formattedDate = pubDate.toLocaleDateString('pt-BR', {
   day: '2-digit',
@@ -19,6 +20,11 @@ const formattedDate = pubDate.toLocaleDateString('pt-BR', {
 ---
 
 <article class:list={['card', { 'card--featured': featured }]}>
+  {heroImage && (
+    <a href={`/blog/${slug}`} class="card-image" aria-hidden="true" tabindex="-1">
+      <img src={heroImage} alt={title} loading="lazy" />
+    </a>
+  )}
   <div class="card-badge">{category}</div>
   <div class="card-body">
     <h2 class="card-title">
@@ -45,6 +51,26 @@ const formattedDate = pubDate.toLocaleDateString('pt-BR', {
   overflow: hidden;
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
   position: relative;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+  display: block;
+}
+
+.card:hover .card-image img {
+  transform: scale(1.05);
 }
 
 .card:hover {

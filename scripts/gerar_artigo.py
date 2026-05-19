@@ -5,8 +5,9 @@ Executado pelo GitHub Actions.
 Fluxo:
 1. Busca próxima palavra-chave pendente no Supabase
 2. Gera artigo completo via API do Claude
-3. Salva em src/content/blog/<slug>.md
-4. Atualiza status no Supabase para 'publicado'
+3. Busca imagem de destaque no Unsplash e salva em public/images/blog/
+4. Salva em src/content/blog/<slug>.md com heroImage no frontmatter
+5. Atualiza status no Supabase para 'publicado'
 """
 
 import os
@@ -18,9 +19,10 @@ from datetime import date
 
 # ─── Configuração ────────────────────────────────────────────────────────────
 
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
-SUPABASE_URL      = os.environ["SUPABASE_URL"]
-SUPABASE_KEY      = os.environ["SUPABASE_KEY"]
+ANTHROPIC_API_KEY   = os.environ["ANTHROPIC_API_KEY"]
+SUPABASE_URL        = os.environ["SUPABASE_URL"]
+SUPABASE_KEY        = os.environ["SUPABASE_KEY"]
+UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 SUPABASE_HEADERS = {
     "apikey": SUPABASE_KEY,
@@ -122,6 +124,89 @@ def gerar_artigo(keyword: str, intencao: str) -> str:
     return message.content[0].text
 
 
+# ─── Imagem de destaque (Unsplash) ───────────────────────────────────────────
+
+# Termos em inglês para enriquecer a busca no Unsplash (que é predominantemente em inglês)
+_TERMOS_EN = {
+    "aquário": "aquarium", "peixe": "fish", "peixes": "fish", "planta": "plant",
+    "plantas": "plants", "iluminação": "lighting", "led": "led", "tropical": "tropical",
+    "coral": "coral reef", "água": "water", "filtro": "filter", "bomba": "pump",
+    "algas": "algae", "temperatura": "temperature", "ph": "ph water",
+}
+
+def _keyword_para_ingles(keyword: str) -> str:
+    """Traduz os principais termos da keyword para melhorar a busca no Unsplash."""
+    resultado = keyword.lower()
+    for pt, en in _TERMOS_EN.items():
+        resultado = resultado.replace(pt, en)
+    return resultado
+
+
+def buscar_imagem_unsplash(keyword: str, slug: str) -> str | None:
+    """Busca uma foto no Unsplash, baixa e salva em public/images/blog/{slug}.jpg.
+    Retorna o caminho público (/images/blog/{slug}.jpg) ou None em caso de falha."""
+    if not UNSPLASH_ACCESS_KEY:
+        print("⚠️  UNSPLASH_ACCESS_KEY não configurado. Pulando imagem de destaque.")
+        return None
+
+    query = _keyword_para_ingles(keyword)
+    print(f"🔎 Buscando imagem no Unsplash: '{query}'...")
+
+    try:
+        resp = httpx.get(
+            "https://api.unsplash.com/search/photos",
+            headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
+            params={"query": query, "per_page": 1, "orientation": "landscape"},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        resultados = resp.json().get("results", [])
+
+        if not resultados:
+            # Fallback genérico
+            resp = httpx.get(
+                "https://api.unsplash.com/search/photos",
+                headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
+                params={"query": "aquarium tropical fish", "per_page": 1, "orientation": "landscape"},
+                timeout=15,
+            )
+            resp.raise_for_status()
+            resultados = resp.json().get("results", [])
+
+        if not resultados:
+            print("⚠️  Nenhuma imagem encontrada no Unsplash.")
+            return None
+
+        foto = resultados[0]
+        image_url = foto["urls"]["regular"]
+        autor = foto["user"]["name"]
+        autor_link = foto["user"]["links"]["html"]
+
+        img_resp = httpx.get(image_url, timeout=30, follow_redirects=True)
+        img_resp.raise_for_status()
+
+        os.makedirs("public/images/blog", exist_ok=True)
+        caminho_local = f"public/images/blog/{slug}.jpg"
+        with open(caminho_local, "wb") as f:
+            f.write(img_resp.content)
+
+        print(f"🖼️  Imagem salva: {caminho_local}  (foto de {autor} — {autor_link})")
+        return f"/images/blog/{slug}.jpg"
+
+    except Exception as e:
+        print(f"⚠️  Erro ao buscar imagem no Unsplash: {e}")
+        return None
+
+
+def injetar_hero_image(conteudo: str, hero_path: str) -> str:
+    """Injeta heroImage no frontmatter gerado pelo Claude."""
+    partes = conteudo.split("---", 2)
+    if len(partes) >= 3:
+        partes[1] = partes[1].rstrip("\n") + f'\nheroImage: "{hero_path}"\n'
+        return "---".join(partes)
+    return conteudo
+
+
 # ─── Slug e arquivo ───────────────────────────────────────────────────────────
 
 def keyword_para_slug(keyword: str) -> str:
@@ -164,8 +249,13 @@ def main():
 
     print(f"🔍 Palavra-chave encontrada: '{keyword}' (id={row_id}, intenção={intencao})")
 
-    conteudo = gerar_artigo(keyword, intencao)
-    slug     = keyword_para_slug(keyword)
+    conteudo  = gerar_artigo(keyword, intencao)
+    slug      = keyword_para_slug(keyword)
+    hero_path = buscar_imagem_unsplash(keyword, slug)
+
+    if hero_path:
+        conteudo = injetar_hero_image(conteudo, hero_path)
+
     salvar_artigo(slug, conteudo)
     marcar_publicado(row_id)
 
