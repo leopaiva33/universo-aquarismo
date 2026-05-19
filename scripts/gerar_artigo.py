@@ -34,6 +34,11 @@ import sys
 from datetime import date, datetime
 from pathlib import Path
 
+# Garante suporte a emojis/UTF-8 no terminal Windows
+os.environ.setdefault("PYTHONUTF8", "1")
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
+
 import httpx
 import anthropic
 
