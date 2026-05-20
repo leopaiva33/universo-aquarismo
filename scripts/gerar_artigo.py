@@ -27,8 +27,10 @@ Variáveis opcionais:
 
 from __future__ import annotations
 
+import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 from datetime import date, datetime
@@ -98,6 +100,11 @@ SUPABASE_HEADERS = {
 
 # Raiz do projeto (um nível acima de scripts/)
 PROJETO_ROOT = Path(__file__).parent.parent
+
+# Arquivo que persiste os IDs de fotos já usadas do Unsplash (commitado no git)
+UNSPLASH_USED_FILE = Path(__file__).parent / "unsplash_used.json"
+# Imagem padrão usada como fallback quando o Unsplash falha ou não encontra nova foto
+IMAGEM_PADRAO = PROJETO_ROOT / "public" / "images" / "blog" / "default.jpg"
 
 
 # ─── Supabase ─────────────────────────────────────────────────────────────────
@@ -214,51 +221,88 @@ def _keyword_en(keyword: str) -> str:
     return resultado
 
 
-def _buscar_foto(query: str) -> dict | None:
+def _carregar_ids_usados() -> set[str]:
+    """Retorna o conjunto de IDs de fotos do Unsplash já utilizadas."""
+    if UNSPLASH_USED_FILE.exists():
+        return set(json.loads(UNSPLASH_USED_FILE.read_text(encoding="utf-8")))
+    return set()
+
+
+def _registrar_id_usado(photo_id: str) -> None:
+    """Adiciona o photo_id ao arquivo de controle e salva."""
+    ids = _carregar_ids_usados()
+    ids.add(photo_id)
+    UNSPLASH_USED_FILE.write_text(
+        json.dumps(sorted(ids), indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+
+def _buscar_foto_nova(query: str, usados: set[str]) -> dict | None:
+    """Busca até 10 fotos no Unsplash e retorna a primeira ainda não utilizada."""
     resp = httpx.get(
         "https://api.unsplash.com/search/photos",
         headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
-        params={"query": query, "per_page": 1, "orientation": "landscape"},
+        params={"query": query, "per_page": 10, "orientation": "landscape"},
         timeout=15,
     )
     resp.raise_for_status()
-    resultados = resp.json().get("results", [])
-    return resultados[0] if resultados else None
+    for foto in resp.json().get("results", []):
+        if foto["id"] not in usados:
+            return foto
+    return None
 
 
-def buscar_imagem_unsplash(keyword: str, slug: str) -> str | None:
-    """Baixa foto do Unsplash e salva em public/images/blog/{slug}.jpg.
-    Retorna o caminho público ou None se não disponível."""
+def _usar_imagem_padrao(slug: str) -> str:
+    """Copia a imagem padrão para o slug e retorna o caminho público."""
+    destino = PROJETO_ROOT / "public" / "images" / "blog"
+    destino.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(IMAGEM_PADRAO, destino / f"{slug}.jpg")
+    log("🖼️  Usando imagem padrão (fallback).")
+    return f"/images/blog/{slug}.jpg"
+
+
+def buscar_imagem_unsplash(keyword: str, slug: str) -> str:
+    """Busca foto inédita no Unsplash e salva em public/images/blog/{slug}.jpg.
+    Garante sempre um caminho de retorno — usa imagem padrão se o Unsplash falhar."""
+    destino = PROJETO_ROOT / "public" / "images" / "blog"
+    destino.mkdir(parents=True, exist_ok=True)
+
     if not UNSPLASH_ACCESS_KEY:
-        log("⚠️  UNSPLASH_ACCESS_KEY não definido — artigo será publicado sem imagem.")
-        return None
+        log("⚠️  UNSPLASH_ACCESS_KEY não definido — usando imagem padrão.")
+        return _usar_imagem_padrao(slug)
 
-    log(f"🖼️  Buscando imagem no Unsplash...")
+    log("🖼️  Buscando imagem inédita no Unsplash...")
     try:
-        query = _keyword_en(keyword)
-        foto = _buscar_foto(query) or _buscar_foto("aquarium tropical fish")
+        usados = _carregar_ids_usados()
+        query  = _keyword_en(keyword)
+
+        # Tenta com a keyword traduzida; se não achar, usa fallback genérico
+        foto = _buscar_foto_nova(query, usados)
+        if not foto:
+            log(f"⚠️  Nenhuma foto nova para '{query}' — tentando fallback genérico...")
+            foto = _buscar_foto_nova("aquarium fish nature", usados)
 
         if not foto:
-            log("⚠️  Nenhuma imagem encontrada no Unsplash.")
-            return None
+            log("⚠️  Todas as fotos do Unsplash já foram usadas — usando imagem padrão.")
+            return _usar_imagem_padrao(slug)
 
-        img_url  = foto["urls"]["regular"]
-        autor    = foto["user"]["name"]
-        perfil   = foto["user"]["links"]["html"]
+        img_bytes = httpx.get(
+            foto["urls"]["regular"], timeout=30, follow_redirects=True
+        ).content
 
-        img_bytes = httpx.get(img_url, timeout=30, follow_redirects=True).content
-
-        destino = PROJETO_ROOT / "public" / "images" / "blog"
-        destino.mkdir(parents=True, exist_ok=True)
         arquivo = destino / f"{slug}.jpg"
         arquivo.write_bytes(img_bytes)
+        _registrar_id_usado(foto["id"])
 
+        autor  = foto["user"]["name"]
+        perfil = foto["user"]["links"]["html"]
         log(f"🖼️  Imagem salva: public/images/blog/{slug}.jpg  (foto: {autor} — {perfil})")
         return f"/images/blog/{slug}.jpg"
 
     except Exception as exc:
-        log(f"⚠️  Erro ao buscar imagem no Unsplash: {exc}")
-        return None
+        log(f"⚠️  Erro no Unsplash ({exc}) — usando imagem padrão.")
+        return _usar_imagem_padrao(slug)
 
 
 def injetar_hero_image(conteudo: str, hero_path: str) -> str:
@@ -310,11 +354,13 @@ def git_publicar(slug: str, keyword: str) -> bool:
     _git("config", "user.name",  GIT_USER_NAME,  check=False)
     _git("config", "user.email", GIT_USER_EMAIL, check=False)
 
-    # Adiciona artigo e imagem (se existir)
+    # Adiciona artigo, imagem e controle de IDs do Unsplash
     arquivos: list[str] = [f"src/content/blog/{slug}.md"]
     img = PROJETO_ROOT / "public" / "images" / "blog" / f"{slug}.jpg"
     if img.exists():
         arquivos.append(f"public/images/blog/{slug}.jpg")
+    if UNSPLASH_USED_FILE.exists():
+        arquivos.append(f"scripts/unsplash_used.json")
 
     _git("add", *arquivos)
 
@@ -396,10 +442,9 @@ def main() -> None:
     # 2. Gerar artigo
     conteudo = gerar_artigo(keyword, intencao)
 
-    # 3. Buscar imagem
+    # 3. Buscar imagem (sempre retorna um caminho — usa fallback se necessário)
     hero_path = buscar_imagem_unsplash(keyword, slug)
-    if hero_path:
-        conteudo = injetar_hero_image(conteudo, hero_path)
+    conteudo = injetar_hero_image(conteudo, hero_path)
 
     # 4. Salvar arquivo
     salvar_artigo(slug, conteudo)
