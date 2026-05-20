@@ -341,6 +341,37 @@ def git_publicar(slug: str, keyword: str) -> bool:
     return True
 
 
+# ─── Deploy Vercel ────────────────────────────────────────────────────────────
+
+def vercel_deploy() -> bool:
+    """Executa 'npx vercel deploy --prod --yes' para forçar o deploy em produção.
+    Retorna True se o deploy foi confirmado como READY."""
+    log("🚀 Iniciando deploy no Vercel...")
+    try:
+        resultado = subprocess.run(
+            ["npx", "vercel", "deploy", "--prod", "--yes"],
+            cwd=PROJETO_ROOT,
+            capture_output=True,
+            text=True,
+            timeout=300,
+        )
+        saida = resultado.stdout + resultado.stderr
+        if resultado.returncode == 0 and ("READY" in saida or "Deployment completed" in saida):
+            log("✅ Deploy Vercel concluído com sucesso.")
+            return True
+        log(f"⚠️  Deploy Vercel retornou código {resultado.returncode}:\n{saida[-500:]}")
+        return False
+    except FileNotFoundError:
+        log("⚠️  npx/vercel não encontrado — pulando deploy automático.")
+        return False
+    except subprocess.TimeoutExpired:
+        log("⚠️  Deploy Vercel excedeu o tempo limite (5 min).")
+        return False
+    except Exception as exc:
+        log(f"⚠️  Erro no deploy Vercel: {exc}")
+        return False
+
+
 # ─── Pipeline principal ───────────────────────────────────────────────────────
 
 def main() -> None:
@@ -389,9 +420,14 @@ def main() -> None:
         except Exception as exc:
             log(f"⚠️  Artigo publicado no git, mas falha ao atualizar Supabase: {exc}")
 
+    # 7. Deploy no Vercel via CLI
+    vercel_ok = vercel_deploy()
+
     log("=" * 60)
     log(f"✅ Pipeline concluído para '{keyword}'")
     log(f"   URL: https://universoaquarismo.com.br/blog/{slug}/")
+    if not vercel_ok:
+        log("   ⚠️  Deploy Vercel não confirmado — verifique vercel.com")
     log("=" * 60)
 
 
