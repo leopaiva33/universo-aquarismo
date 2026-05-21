@@ -392,10 +392,14 @@ def git_publicar(slug: str, keyword: str) -> bool:
 def vercel_deploy() -> bool:
     """Executa 'npx vercel deploy --prod --yes' para forçar o deploy em produção.
     Retorna True se o deploy foi confirmado como READY."""
+    token = os.environ.get("VERCEL_TOKEN", "")
+    if not token:
+        log("⚠️  VERCEL_TOKEN não definido — pulando deploy automático.")
+        return False
     log("🚀 Iniciando deploy no Vercel...")
     try:
         resultado = subprocess.run(
-            ["npx", "vercel", "deploy", "--prod", "--yes"],
+            ["npx", "vercel", "deploy", "--prod", "--yes", "--token", token],
             cwd=PROJETO_ROOT,
             capture_output=True,
             text=True,

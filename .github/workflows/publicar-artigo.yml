@@ -43,11 +43,7 @@ jobs:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           GIT_USER_NAME: "github-actions[bot]"
           GIT_USER_EMAIL: "github-actions[bot]@users.noreply.github.com"
-        run: python scripts/gerar_artigo.py
-
-      - name: Deploy no Vercel
-        env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: team_4BLOGwd4WA0XP3kIpI5O6uch
           VERCEL_PROJECT_ID: prj_VM8rT5bm2DFYI3Wk0qNKm0viZw2O
-        run: npx vercel --prod --yes
+        run: python scripts/gerar_artigo.py
