@@ -27,7 +27,7 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar dependências Python
-        run: pip install anthropic httpx
+        run: pip install anthropic httpx google-auth requests
 
       - name: Configurar credenciais git
         run: |
@@ -47,3 +47,8 @@ jobs:
           VERCEL_ORG_ID: team_4BLOGwd4WA0XP3kIpI5O6uch
           VERCEL_PROJECT_ID: prj_VM8rT5bm2DFYI3Wk0qNKm0viZw2O
         run: python scripts/gerar_artigo.py
+
+      - name: Solicitar indexação no Google
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/indexar_google.py
