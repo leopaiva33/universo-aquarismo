@@ -474,7 +474,7 @@ def main() -> None:
 
     log("=" * 60)
     log(f"✅ Pipeline concluído para '{keyword}'")
-    log(f"   URL: https://universoaquarismo.com.br/blog/{slug}/")
+    log(f"   URL: https://universoaquarista.com/blog/{slug}/")
     if not vercel_ok:
         log("   ⚠️  Deploy Vercel não confirmado — verifique vercel.com")
     log("=" * 60)

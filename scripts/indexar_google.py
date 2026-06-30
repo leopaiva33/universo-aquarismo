@@ -44,7 +44,7 @@ except ImportError:
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 
-SITEMAP_URL      = "https://universoaquarismo.com.br/sitemap-index.xml"
+SITEMAP_URL      = "https://universoaquarista.com/sitemap-index.xml"
 INDEXING_API_URL = "https://indexing.googleapis.com/v3/urlNotifications:publish"
 SCOPES           = ["https://www.googleapis.com/auth/indexing"]
 CREDENTIALS_FILE = Path(__file__).parent / "google-service-account.json"

@@ -19,7 +19,7 @@ const {
   canonical,
 } = Astro.props;
 
-const siteUrl = 'https://universoaquarismo.com.br';
+const siteUrl = 'https://universoaquarista.com';
 const canonicalURL = canonical ?? new URL(Astro.url.pathname, siteUrl).href;
 const fullTitle = title.includes('Universo Aquarismo') ? title : `${title} | Universo Aquarismo`;
 ---
