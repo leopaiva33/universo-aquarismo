@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://universoaquarismo.com.br',
+  site: 'https://universoaquarista.com',
   output: 'static',
   integrations: [sitemap()],
 });

@@ -7,9 +7,9 @@ export async function GET(context: APIContext) {
   const sorted = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
   return rss({
-    title: 'Universo Aquarismo',
+    title: 'Universo Aquarista',
     description: 'Guias completos sobre iluminação para aquário e aquarismo em geral.',
-    site: context.site ?? 'https://universoaquarismo.com.br',
+    site: context.site ?? 'https://universoaquarista.com',
     items: sorted.map(post => ({
       title: post.data.title,
       description: post.data.description,

@@ -22,7 +22,7 @@ const formattedDate = pubDate.toLocaleDateString('pt-BR', {
 <article class:list={['card', { 'card--featured': featured }]}>
   {heroImage && (
     <a href={`/blog/${slug}`} class="card-image" aria-hidden="true" tabindex="-1">
-      <img src={heroImage} alt={title} loading="lazy" />
+      <img src={heroImage} alt={title} loading="lazy" width="400" height="180" decoding="async" />
     </a>
   )}
   <div class="card-badge">{category}</div>
@@ -151,7 +151,7 @@ const formattedDate = pubDate.toLocaleDateString('pt-BR', {
   font-size: 0.85rem;
   font-weight: 600;
   color: var(--color-primary);
-  transition: gap 0.2s;
+  transition: color 0.2s;
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
