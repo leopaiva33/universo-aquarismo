@@ -55,24 +55,29 @@ const fullTitle = title.includes('Universo Aquarismo') ? title : `${title} | Uni
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="Universo Aquarismo" href="/rss.xml" />
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts (não-bloqueante) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
 
-    <!-- Google AdSense (substitua pelo seu ID) -->
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
-
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-24MV48H639"></script>
-    <script>
+    <!-- Google Analytics (defer para não bloquear renderização) -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-24MV48H639"></script>
+    <script defer>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-24MV48H639');
+      gtag('config', 'G-24MV48H639', { send_page_view: true });
     </script>
   </head>
   <body>
