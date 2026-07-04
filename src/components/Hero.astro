@@ -105,6 +105,10 @@ const {
   max-width: 16ch;
   margin-inline: auto;
   margin-bottom: 1.25rem;
+}
+
+/* Gradiente só após fonte carregada — evita texto invisível no LCP */
+:global(.fonts-loaded) .hero-title {
   background: linear-gradient(135deg, #fff 0%, #00d4ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
