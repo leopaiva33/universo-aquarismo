@@ -14,7 +14,7 @@
   --color-text:      #e2e8f0;
   --color-muted:     #8892a4;
   --color-heading:   #f8fafc;
-  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter Variable', 'Inter', system-ui, -apple-system, sans-serif;
   --font-serif: 'Georgia', 'Times New Roman', serif;
   --radius-sm: 6px;
   --radius-md: 12px;
