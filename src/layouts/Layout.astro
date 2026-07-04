@@ -2,7 +2,6 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-import '@fontsource-variable/inter';
 
 interface Props {
   title: string;
@@ -56,7 +55,8 @@ const fullTitle = title.includes('Universo Aquarismo') ? title : `${title} | Uni
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="Universo Aquarismo" href="/rss.xml" />
 
-    <!-- Fonte Inter auto-hospedada (sem dependência externa) -->
+    <!-- Preload da fonte Inter (inicia download antes do CSS) -->
+    <link rel="preload" href="/fonts/inter-variable.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Google Analytics (defer para não bloquear renderização) -->
     <script defer src="https://www.googletagmanager.com/gtag/js?id=G-24MV48H639"></script>

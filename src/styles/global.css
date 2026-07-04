@@ -3,6 +3,14 @@
    Tema: Dark mode com azul/ciano aquático
    ========================================================= */
 
+@font-face {
+  font-family: 'Inter Variable';
+  src: url('/fonts/inter-variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-bg:        #0a0e1a;
   --color-surface:   #111827;
