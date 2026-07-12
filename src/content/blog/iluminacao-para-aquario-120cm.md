@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, aquario-120cm, luminaria-led-aquario, equipamentos-aq
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-120cm.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-120cm.jpg"
 ---
 
 A escolha da iluminação adequada determina o sucesso de um aquário de 120cm. Esse tamanho — geralmente comportando entre 220 e 300 litros — exige atenção especial à distribuição luminosa, potência e espectro de luz para garantir saúde de plantas e peixes.

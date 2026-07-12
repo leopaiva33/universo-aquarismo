@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, aquario-low-tech, lampadas-aquario, plantado-low-tech
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-low-tech.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-low-tech.jpg"
 ---
 
 # Iluminação para Aquário Low Tech: Guia Completo

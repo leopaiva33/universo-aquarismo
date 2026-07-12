@@ -7,7 +7,7 @@ tags: [iluminacao-aquario-marinho, led-para-corais, lampadas-aquario, reef-light
 readTime: 12
 featured: true
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-marinho.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-marinho.jpg"
 ---
 
 A iluminação adequada representa um dos pilares fundamentais para o sucesso de qualquer aquário marinho. Diferente dos sistemas de água doce, onde a luz desempenha papel principalmente estético, nos aquários marinhos ela se torna questão de sobrevivência para corais e invertebrados fotossintéticos.

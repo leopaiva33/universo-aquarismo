@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, timer-aquario, automacao-aquario, iluminacao-plantado
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-aquario-com-timer.jpg"
+heroImage: "../../assets/blog/iluminacao-aquario-com-timer.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário. Mas manter horários consistentes manualmente? Isso é quase impossível na correria do dia a dia.

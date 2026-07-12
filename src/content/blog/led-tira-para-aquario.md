@@ -7,7 +7,7 @@ tags: [led-aquario, iluminacao-aquario, fita-led, equipamentos-aquario, aquario-
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-tira-para-aquario.jpg"
+heroImage: "../../assets/blog/led-tira-para-aquario.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário. Peixes exibem cores mais vibrantes, plantas crescem saudáveis e o ambiente ganha vida. As LED tiras para aquário tornaram-se a escolha preferida de aquaristas modernos por unir eficiência energética, durabilidade e versatilidade de instalação.

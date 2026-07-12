@@ -7,7 +7,7 @@ tags: [calha-de-led-para-aquario, iluminacao-aquario, led-aquario, equipamentos-
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/calha-de-led-para-aquario.jpg"
+heroImage: "../../assets/blog/calha-de-led-para-aquario.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário. Não se trata apenas de estética — a luz certa garante a saúde dos peixes, o crescimento vigoroso das plantas e a estabilidade do ecossistema aquático. Entre as opções disponíveis no mercado, a calha de LED para aquário se destaca como a escolha mais moderna, eficiente e versátil.

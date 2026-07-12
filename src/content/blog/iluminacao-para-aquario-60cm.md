@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, aquario-60cm, lampada-led-aquario, equipamentos-aquar
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-60cm.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-60cm.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário de 60cm. Ela define se as plantas crescerão saudáveis, se as cores dos peixes se destacarão e se o ambiente ficará equilibrado. Mais do que estética, a luz certa é fundamental para o ciclo biológico do seu aquário.

@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, led-aquario, controle-remoto, automacao-aquario, ilum
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-com-controle-para-aquario.jpg"
+heroImage: "../../assets/blog/led-com-controle-para-aquario.jpg"
 ---
 
 A iluminação com LED controlável revolucionou o aquarismo moderno. Aquaristas de todos os níveis buscam sistemas que ofereçam praticidade, economia e resultados visuais impressionantes. A capacidade de ajustar intensidade, cor e programar ciclos luminosos transforma completamente a experiência de manter um aquário saudável.

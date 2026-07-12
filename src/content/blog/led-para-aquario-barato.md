@@ -7,7 +7,7 @@ tags: [led-para-aquario, iluminacao-aquario, equipamentos-baratos, aquarismo-eco
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-para-aquario-barato.jpg"
+heroImage: "../../assets/blog/led-para-aquario-barato.jpg"
 ---
 
 A iluminação adequada é essencial para qualquer aquário, mas isso não significa que você precise gastar uma fortuna. Encontrar um LED para aquário barato e eficiente é completamente possível quando você sabe exatamente o que procurar.

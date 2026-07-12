@@ -7,7 +7,7 @@ tags: [luminaria-aquario, iluminacao-aquario, aquario-plantado, led-aquario, equ
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/luminaria-aquario-50cm.jpg"
+heroImage: "../../assets/blog/luminaria-aquario-50cm.jpg"
 ---
 
 A iluminação determina o sucesso ou fracasso de qualquer aquário. Em tanques de 50cm, essa escolha se torna ainda mais crítica pela proporção compacta que exige eficiência energética e distribuição uniforme de luz.

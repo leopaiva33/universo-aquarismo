@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, aquario-plantado, led-para-plantas, equipamentos-aqua
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/melhor-led-para-aquario-plantado.jpg"
+heroImage: "../../assets/blog/melhor-led-para-aquario-plantado.jpg"
 ---
 
 A iluminação adequada determina o sucesso ou fracasso de um aquário plantado. Sem a luz correta, mesmo as plantas mais resistentes definham, enquanto algas tomam conta do sistema.

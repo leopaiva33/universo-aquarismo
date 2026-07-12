@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, fotoperodo, luz-aquario, manutencao-aquario, plantas-
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/quantas-horas-de-luz-para-aquario.jpg"
+heroImage: "../../assets/blog/quantas-horas-de-luz-para-aquario.jpg"
 ---
 
 A iluminação é um dos pilares fundamentais para manter um aquário saudável. Tanto para os peixes quanto para as plantas aquáticas, a quantidade de luz diária determina processos biológicos essenciais.

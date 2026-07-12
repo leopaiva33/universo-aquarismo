@@ -7,7 +7,7 @@ tags: [fotopereriodo-aquario-plantado, iluminacao-aquario, plantas-aquaticas, co
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/fotoperiodo-aquario-plantado.jpg"
+heroImage: "../../assets/blog/fotoperiodo-aquario-plantado.jpg"
 ---
 
 A iluminação inadequada é responsável por mais de 60% dos problemas em aquários plantados, segundo levantamentos de clubes de aquarismo em todo o Brasil. O fotoperíodo — período em que as luzes permanecem acesas — determina o sucesso ou fracasso do seu layout aquático.

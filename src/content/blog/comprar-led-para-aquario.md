@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, led-aquario, equipamentos-aquario, plantas-aquaticas,
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/comprar-led-para-aquario.jpg"
+heroImage: "../../assets/blog/comprar-led-para-aquario.jpg"
 ---
 
 A iluminação LED revolucionou o aquarismo. Economiza energia, oferece espectros ideais para plantas e realça as cores dos peixes. Mas escolher o LED certo exige conhecimento técnico e atenção aos detalhes.

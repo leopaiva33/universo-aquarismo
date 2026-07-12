@@ -1,8 +1,10 @@
 ---
 import Layout from './Layout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
+import { Image, getImage } from 'astro:assets';
 import { getCollection } from 'astro:content';
 import { getCategoryByName } from '../utils/categories';
+import type { ImageMetadata } from 'astro';
 
 interface Props {
   title: string;
@@ -12,7 +14,7 @@ interface Props {
   category?: string;
   tags?: string[];
   readTime?: number;
-  heroImage?: string;
+  heroImage?: ImageMetadata;
   slug: string;
 }
 
@@ -43,6 +45,7 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
 const siteUrl = 'https://universoaquarista.com';
 const postUrl = `${siteUrl}/blog/${slug}`;
 const categoryInfo = getCategoryByName(category);
+const ogImage = heroImage ? await getImage({ src: heroImage, width: 1200, height: 630 }) : null;
 
 // Artigo pilar do cluster (mesma categoria): concentra a autoridade da categoria
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
@@ -68,7 +71,7 @@ const jsonLd = {
       '@type': 'BlogPosting',
       headline: title,
       description,
-      image: heroImage ? `${siteUrl}${heroImage}` : `${siteUrl}/og-default.jpg`,
+      image: ogImage ? `${siteUrl}${ogImage.src}` : `${siteUrl}/og-default.jpg`,
       datePublished: pubDate.toISOString(),
       dateModified: (updatedDate ?? pubDate).toISOString(),
       inLanguage: 'pt-BR',
@@ -92,14 +95,22 @@ const jsonLd = {
 };
 ---
 
-<Layout title={title} description={description} type="article">
+<Layout title={title} description={description} type="article" image={ogImage?.src}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <article class="blog-post">
     <!-- Hero do post -->
     <header class="post-header">
       {heroImage && (
         <div class="post-hero-image">
-          <img src={heroImage} alt={title} loading="eager" />
+          <Image
+            src={heroImage}
+            alt={title}
+            width={1200}
+            height={420}
+            loading="eager"
+            fetchpriority="high"
+            format="webp"
+          />
         </div>
       )}
       <div class="container--narrow">

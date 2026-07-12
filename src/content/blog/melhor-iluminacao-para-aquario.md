@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, led-aquario, equipamentos-aquario, aquario-plantado, 
 readTime: 12
 featured: true
 draft: false
-heroImage: "/images/blog/melhor-iluminacao-para-aquario.jpg"
+heroImage: "../../assets/blog/melhor-iluminacao-para-aquario.jpg"
 ---
 
 A iluminação define o sucesso de qualquer aquário. Mais do que estética, a luz adequada sustenta a vida das plantas, realça as cores dos peixes e mantém o equilíbrio biológico do sistema. Escolher errado significa algas invasoras, plantas definhando e gastos desnecessários com energia.

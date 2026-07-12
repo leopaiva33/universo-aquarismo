@@ -7,7 +7,7 @@ tags: [intensidade-luz-aquario, iluminacao-aquario-plantado, par-aquario, lumens
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/intensidade-de-luz-aquario-plantado.jpg"
+heroImage: "../../assets/blog/intensidade-de-luz-aquario-plantado.jpg"
 ---
 
 A iluminação representa um dos pilares fundamentais para o sucesso de um aquário plantado. Diferente de aquários convencionais, onde a luz serve principalmente propósitos estéticos, nos aquários plantados ela funciona como combustível para a fotossíntese. Compreender a intensidade adequada pode significar a diferença entre plantas exuberantes e um ambiente dominado por algas.

@@ -7,7 +7,7 @@ tags: [luminaria-aquario-app, iluminacao-aquario, automacao-aquario, led-aquario
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/luminaria-aquario-com-app.jpg"
+heroImage: "../../assets/blog/luminaria-aquario-com-app.jpg"
 ---
 
 A tecnologia transformou radicalmente o aquarismo moderno. Se antes ajustar a iluminação exigia temporizadores mecânicos e intervenções manuais, hoje você pode controlar cada detalhe da luz do seu aquário através do smartphone. Uma **luminária aquário com app** não é apenas confortável — ela representa um salto qualitativo na saúde dos peixes e no crescimento das plantas.

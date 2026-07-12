@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, aquario-plantado, watts-por-litro, luz-para-plantas, 
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/watts-por-litro-aquario-plantado.jpg"
+heroImage: "../../assets/blog/watts-por-litro-aquario-plantado.jpg"
 ---
 
 A iluminação adequada é o coração de qualquer aquário plantado bem-sucedido. Durante anos, aquaristas do mundo todo utilizaram a regra dos watts por litro como referência absoluta para escolher a luz ideal. Mas será que essa métrica ainda faz sentido na era das lâmpadas LED?

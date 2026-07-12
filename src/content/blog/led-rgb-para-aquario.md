@@ -7,7 +7,7 @@ tags: [led-rgb-para-aquario, iluminacao-aquario, led-aquario, equipamentos-aquar
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-rgb-para-aquario.jpg"
+heroImage: "../../assets/blog/led-rgb-para-aquario.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário. O LED RGB surgiu como uma revolução tecnológica que combina eficiência energética, controle total sobre cores e intensidade, além de criar ambientes espetaculares tanto para os habitantes quanto para quem admira o aquário.

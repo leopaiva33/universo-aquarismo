@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, aquario-plantado, led-aquario, plantas-aquaticas, equ
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/melhor-iluminacao-para-aquario-plantado.jpg"
+heroImage: "../../assets/blog/melhor-iluminacao-para-aquario-plantado.jpg"
 ---
 
 A iluminação é o coração pulsante de um aquário plantado bem-sucedido. Enquanto filtros e substrato desempenham papéis importantes, são os fótons de luz que alimentam a fotossíntese e transformam um simples recipiente de vidro em um ecossistema vibrante.

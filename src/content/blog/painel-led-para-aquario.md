@@ -7,7 +7,7 @@ tags: [painel-led-aquario, iluminacao-aquario, equipamentos-aquarismo, led-aquar
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/painel-led-para-aquario.jpg"
+heroImage: "../../assets/blog/painel-led-para-aquario.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário. Um painel LED para aquário não apenas valoriza esteticamente seu projeto, mas desempenha papel fundamental na saúde de peixes e no desenvolvimento de plantas aquáticas.

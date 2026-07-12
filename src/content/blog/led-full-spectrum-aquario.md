@@ -7,7 +7,7 @@ tags: [led-full-spectrum-aquario, iluminacao-aquario, equipamentos-aquarismo, pl
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-full-spectrum-aquario.jpg"
+heroImage: "../../assets/blog/led-full-spectrum-aquario.jpg"
 ---
 
 A iluminação representa um dos pilares fundamentais para o sucesso de qualquer aquário plantado. Nos últimos anos, o LED full spectrum revolucionou completamente o aquarismo.

@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, luz-para-peixes, lampadas-aquario, iluminacao-led, cu
 readTime: 12
 featured: true
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-de-peixes.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-de-peixes.jpg"
 ---
 
 A iluminação é um dos elementos mais subestimados no aquarismo. Muitos iniciantes acreditam que a luz serve apenas para enxergar os peixes, mas a realidade é bem diferente. 

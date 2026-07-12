@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, aquario-90cm, luminaria-led-aquario, iluminacao-plant
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-90cm.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-90cm.jpg"
 ---
 
 A iluminação é o coração de qualquer aquário plantado ou comunitário. Para um tanque de 90 centímetros, escolher a luminária correta não é apenas uma questão estética — é fundamental para a saúde das plantas, o comportamento dos peixes e o equilíbrio geral do ecossistema aquático.

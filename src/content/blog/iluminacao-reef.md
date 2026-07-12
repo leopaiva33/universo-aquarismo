@@ -7,7 +7,7 @@ tags: [iluminacao-reef, aquario-marinho, corais, led-aquario, equipamentos-reef,
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-reef.jpg"
+heroImage: "../../assets/blog/iluminacao-reef.jpg"
 ---
 
 A iluminação determina o sucesso ou fracasso de um aquário reef. Sem a luz adequada, corais perdem coloração, param de crescer e eventualmente morrem. Com o sistema correto, você testemunha um jardim submarino vibrante que cresce consistentemente.

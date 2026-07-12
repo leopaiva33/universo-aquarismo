@@ -7,7 +7,7 @@ tags: [led-aquario-plantado, iluminacao-aquario, plantas-aquaticas, aquapaisagis
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-para-aquario-plantado.jpg"
+heroImage: "../../assets/blog/led-para-aquario-plantado.jpg"
 ---
 
 A iluminação adequada representa o coração de qualquer aquário plantado bem-sucedido. Sem luz de qualidade, mesmo as plantas mais resistentes definham lentamente. 

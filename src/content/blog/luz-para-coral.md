@@ -7,7 +7,7 @@ tags: [luz-para-coral, iluminacao-aquario, corais-marinhos, aquario-marinho, equ
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/luz-para-coral.jpg"
+heroImage: "../../assets/blog/luz-para-coral.jpg"
 ---
 
 A iluminação representa um dos pilares fundamentais para o sucesso de um aquário de corais. Diferente dos peixes, que dependem principalmente da qualidade da água e alimentação, os corais fotossintéticos estabelecem uma relação simbiótica com zooxantelas — algas microscópicas que vivem em seus tecidos e necessitam de luz específica para produzir energia.

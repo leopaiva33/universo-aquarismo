@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, aquario-high-tech, plantas-aquaticas, led-aquario, aq
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-high-tech.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-high-tech.jpg"
 ---
 
 ## O Papel Fundamental da Iluminação em Aquários High Tech

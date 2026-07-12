@@ -7,7 +7,7 @@ tags: [luminaria-suspensa-aquario, iluminacao-aquario, aquascaping, equipamentos
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/luminaria-suspensa-aquario.jpg"
+heroImage: "../../assets/blog/luminaria-suspensa-aquario.jpg"
 ---
 
 A iluminação é um dos pilares fundamentais para manter um aquário saudável e esteticamente impressionante. Entre as opções disponíveis, a luminária suspensa para aquário tem conquistado cada vez mais aquaristas que buscam funcionalidade sem abrir mão da beleza.

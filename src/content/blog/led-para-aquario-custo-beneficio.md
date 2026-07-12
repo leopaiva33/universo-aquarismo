@@ -7,7 +7,7 @@ tags: [iluminacao-aquario, led-aquario, custo-beneficio, equipamentos-aquario, e
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-para-aquario-custo-beneficio.jpg"
+heroImage: "../../assets/blog/led-para-aquario-custo-beneficio.jpg"
 ---
 
 ## O Que Torna um LED Realmente Vantajoso para Aquários
