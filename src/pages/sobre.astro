@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Sobre o Blog — Universo Aquarismo"
+  description="Conheça o Universo Aquarismo: guias completos e imparciais sobre iluminação para aquário, plantas aquáticas e peixes, escritos para quem quer montar e manter um aquário saudável."
+>
+  <section class="page-hero">
+    <div class="container--narrow">
+      <h1>🐠 Sobre o Universo Aquarismo</h1>
+      <p>Conteúdo prático para quem quer um aquário bonito, saudável e sem complicação.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container--narrow prose">
+      <p>
+        O <strong>Universo Aquarismo</strong> nasceu para resolver um problema comum:
+        encontrar informação confiável sobre iluminação de aquário e aquarismo em geral,
+        sem depender de fóruns desatualizados ou marketing disfarçado de conteúdo.
+      </p>
+      <p>
+        Nosso foco principal é <strong>iluminação para aquário</strong> — LED, espectro de luz,
+        fotoperíodo, PAR e como escolher a luminária certa para aquários plantados, marinhos
+        e de peixes — mas também cobrimos plantas aquáticas, equipamentos e cuidados gerais.
+      </p>
+      <h2>Como produzimos nosso conteúdo</h2>
+      <p>
+        Cada guia é escrito com base em referências técnicas do aquarismo, comparação de
+        produtos disponíveis no mercado brasileiro e na experiência prática de quem monta
+        e mantém aquários. Atualizamos os artigos sempre que novas informações relevantes
+        surgem.
+      </p>
+      <h2>Transparência sobre afiliação</h2>
+      <p>
+        Este site participa de programas de afiliados. Alguns links de produtos podem gerar
+        uma pequena comissão para nós, sem custo extra para você. Isso nunca influencia
+        nossas recomendações — indicamos o que realmente funciona.
+      </p>
+      <p>
+        Tem uma dúvida, sugestão de pauta ou encontrou algo incorreto em um artigo?
+        Fale com a gente na página de <a href="/contato">Contato</a>.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+.page-hero {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 3rem 2rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.page-hero p {
+  color: var(--color-muted);
+  font-size: 1.05rem;
+}
+
+.page-content {
+  padding-block: 3rem 5rem;
+}
+</style>
