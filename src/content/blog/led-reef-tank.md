@@ -2,12 +2,12 @@
 title: "LED Reef Tank: Guia Completo para Iluminação de Corais"
 description: "Descubra como escolher e usar LED reef tank para manter corais saudáveis. Comparações, PAR ideal e dicas práticas de instalação."
 pubDate: 2026-06-09
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [led-reef-tank, iluminacao-aquario, aquario-marinho, reef-tank, corais, iluminacao-led, equipamentos-aquarismo]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-reef-tank.jpg"
+heroImage: "../../assets/blog/led-reef-tank.jpg"
 ---
 
 A iluminação representa um dos pilares fundamentais no sucesso de um aquário marinho dedicado a corais. Diferente dos peixes que dependem primariamente de alimentação, muitos corais estabelecem uma relação simbiótica com zooxantelas—microalgas que realizam fotossíntese e fornecem nutrientes essenciais. Sem luz adequada, essa simbiose colapsa.

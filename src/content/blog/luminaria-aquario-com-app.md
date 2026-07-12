@@ -2,12 +2,12 @@
 title: "Luminária Aquário com App: Controle Total na Palma da Mão"
 description: "Descubra como luminárias de aquário controladas por app revolucionam a iluminação aquática. Guia completo com comparações e dicas práticas."
 pubDate: 2026-06-29
-category: "equipamentos"
+category: "Equipamentos"
 tags: [luminaria-aquario-app, iluminacao-aquario, automacao-aquario, led-aquario, aquario-inteligente, tecnologia-aquarismo, iluminacao-plantado]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/luminaria-aquario-com-app.jpg"
+heroImage: "../../assets/blog/luminaria-aquario-com-app.jpg"
 ---
 
 A tecnologia transformou radicalmente o aquarismo moderno. Se antes ajustar a iluminação exigia temporizadores mecânicos e intervenções manuais, hoje você pode controlar cada detalhe da luz do seu aquário através do smartphone. Uma **luminária aquário com app** não é apenas confortável — ela representa um salto qualitativo na saúde dos peixes e no crescimento das plantas.

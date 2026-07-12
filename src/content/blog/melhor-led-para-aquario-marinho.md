@@ -2,12 +2,12 @@
 title: "Melhor LED para Aquário Marinho: Guia Completo 2026"
 description: "Descubra o melhor LED para aquário marinho. Análise técnica, comparações e recomendações para corais, peixes e seu orçamento."
 pubDate: 2026-06-05
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [led-aquario-marinho, iluminacao-aquario, corais, aquario-marinho, equipamentos-reef, iluminacao-corais, led-aquarismo]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/melhor-led-para-aquario-marinho.jpg"
+heroImage: "../../assets/blog/melhor-led-para-aquario-marinho.jpg"
 ---
 
 A iluminação representa um dos investimentos mais críticos em aquarismo marinho. Diferente de aquários de água doce, os sistemas marinhos — especialmente aqueles com corais — exigem espectros luminosos específicos que simulem as condições naturais dos recifes.

@@ -2,12 +2,12 @@
 title: "Lâmpada para Aquário Plantado: Guia Completo 2026"
 description: "Descubra como escolher a lâmpada ideal para aquário plantado. Tipos, espectros, intensidade e as melhores opções do mercado."
 pubDate: 2026-05-21
-category: "equipamentos"
+category: "Plantas Aquáticas"
 tags: [lampada-aquario-plantado, iluminacao-aquario, plantas-aquaticas, led-aquario, espectro-luz, aquapaisagismo, aquario-plantado]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/lampada-para-aquario-plantado.jpg"
+heroImage: "../../assets/blog/lampada-para-aquario-plantado.jpg"
 ---
 
 A iluminação representa um dos pilares fundamentais para o sucesso de um aquário plantado. Sem luz adequada, mesmo os fertilizantes mais caros e o CO2 mais puro tornam-se inúteis. As plantas aquáticas dependem da fotossíntese para crescer, colorir e oxigenar a água — e isso só acontece quando recebem luz na quantidade, qualidade e duração corretas.

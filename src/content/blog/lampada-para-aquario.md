@@ -7,7 +7,7 @@ tags: ["lampada-aquario", "led", "iluminacao", "aquario-plantado", "espectro", "
 readTime: 11
 featured: false
 draft: false
-heroImage: "/images/blog/lampada-para-aquario.jpg"
+heroImage: "../../assets/blog/lampada-para-aquario.jpg"
 ---
 
 Escolher a lâmpada certa para o aquário é uma das decisões mais importantes — e também das mais confusas — para quem está montando ou renovando um setup. Com tantos tipos, potências e especificações disponíveis, é fácil errar na compra e acabar com um aquário mal iluminado, cheio de algas ou com plantas que simplesmente não crescem.

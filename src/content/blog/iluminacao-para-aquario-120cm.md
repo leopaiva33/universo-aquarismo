@@ -2,12 +2,12 @@
 title: "Iluminação para Aquário 120cm: Guia Completo 2026"
 description: "Descubra como escolher a melhor iluminação para aquário 120cm. Tipos de lâmpadas, potência ideal e análise das melhores marcas do mercado."
 pubDate: 2026-07-09
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, aquario-120cm, luminaria-led-aquario, equipamentos-aquarismo, iluminacao-plantado, aquario-medio]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-120cm.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-120cm.jpg"
 ---
 
 A escolha da iluminação adequada determina o sucesso de um aquário de 120cm. Esse tamanho — geralmente comportando entre 220 e 300 litros — exige atenção especial à distribuição luminosa, potência e espectro de luz para garantir saúde de plantas e peixes.

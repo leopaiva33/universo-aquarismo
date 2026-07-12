@@ -2,12 +2,12 @@
 title: "Calha de LED para Aquário: Guia Completo 2026"
 description: "Descubra como escolher a melhor calha de LED para aquário. Comparativo de modelos, potência ideal e dicas para plantas e peixes."
 pubDate: 2026-06-22
-category: "equipamentos"
+category: "Equipamentos"
 tags: [calha-de-led-para-aquario, iluminacao-aquario, led-aquario, equipamentos-aquarismo, aquario-plantado, iluminacao-led, manutencao-aquario]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/calha-de-led-para-aquario.jpg"
+heroImage: "../../assets/blog/calha-de-led-para-aquario.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário. Não se trata apenas de estética — a luz certa garante a saúde dos peixes, o crescimento vigoroso das plantas e a estabilidade do ecossistema aquático. Entre as opções disponíveis no mercado, a calha de LED para aquário se destaca como a escolha mais moderna, eficiente e versátil.

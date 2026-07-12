@@ -1,5 +1,10 @@
 ---
 import Layout from './Layout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { Image, getImage } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import { getCategoryByName } from '../utils/categories';
+import type { ImageMetadata } from 'astro';
 
 interface Props {
   title: string;
@@ -9,7 +14,8 @@ interface Props {
   category?: string;
   tags?: string[];
   readTime?: number;
-  heroImage?: string;
+  heroImage?: ImageMetadata;
+  slug: string;
 }
 
 const {
@@ -21,6 +27,7 @@ const {
   tags = [],
   readTime = 5,
   heroImage,
+  slug,
 } = Astro.props;
 
 const formattedDate = pubDate.toLocaleDateString('pt-BR', {
@@ -34,19 +41,84 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
   month: 'long',
   year: 'numeric',
 });
+
+const siteUrl = 'https://universoaquarista.com';
+const postUrl = `${siteUrl}/blog/${slug}`;
+const categoryInfo = getCategoryByName(category);
+const ogImage = heroImage ? await getImage({ src: heroImage, width: 1200, height: 630 }) : null;
+
+// Artigo pilar do cluster (mesma categoria): concentra a autoridade da categoria
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const pillarPost = allPosts.find(p => p.data.category === category && p.data.featured && p.slug !== slug);
+
+// Artigos relacionados: mesma categoria primeiro, depois tags em comum
+const relatedPosts = allPosts
+  .filter(p => p.slug !== slug)
+  .map(p => {
+    const sharedTags = p.data.tags.filter(t => tags.includes(t)).length;
+    const sameCategory = p.data.category === category ? 1 : 0;
+    return { post: p, score: sameCategory * 10 + sharedTags };
+  })
+  .filter(({ score }) => score > 0)
+  .sort((a, b) => b.score - a.score || b.post.data.pubDate.valueOf() - a.post.data.pubDate.valueOf())
+  .slice(0, 3)
+  .map(({ post }) => post);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BlogPosting',
+      headline: title,
+      description,
+      image: ogImage ? `${siteUrl}${ogImage.src}` : `${siteUrl}/og-default.jpg`,
+      datePublished: pubDate.toISOString(),
+      dateModified: (updatedDate ?? pubDate).toISOString(),
+      inLanguage: 'pt-BR',
+      author: { '@type': 'Organization', name: 'Universo Aquarismo' },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Universo Aquarismo',
+        logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.svg` },
+      },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Início', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Artigos', item: `${siteUrl}/blog` },
+        { '@type': 'ListItem', position: 3, name: title, item: postUrl },
+      ],
+    },
+  ],
+};
 ---
 
-<Layout title={title} description={description} type="article">
+<Layout title={title} description={description} type="article" image={ogImage?.src}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <article class="blog-post">
     <!-- Hero do post -->
     <header class="post-header">
       {heroImage && (
         <div class="post-hero-image">
-          <img src={heroImage} alt={title} loading="eager" />
+          <Image
+            src={heroImage}
+            alt={title}
+            width={1200}
+            height={420}
+            loading="eager"
+            fetchpriority="high"
+            format="webp"
+          />
         </div>
       )}
       <div class="container--narrow">
-        <div class="post-category">{category}</div>
+        {categoryInfo ? (
+          <a href={`/categoria/${categoryInfo.slug}`} class="post-category">{category}</a>
+        ) : (
+          <div class="post-category">{category}</div>
+        )}
         <h1 class="post-title">{title}</h1>
         <p class="post-description">{description}</p>
         <div class="post-meta">
@@ -63,6 +135,13 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
         )}
       </div>
     </header>
+
+    <!-- Guia pilar do cluster: concentra autoridade e evita canibalização de palavra-chave -->
+    {pillarPost && (
+      <div class="pillar-callout container--narrow">
+        📌 Guia completo sobre {category}: <a href={`/blog/${pillarPost.slug}`}>{pillarPost.data.title}</a>
+      </div>
+    )}
 
     <!-- Adsense slot (topo do artigo) -->
     <!--
@@ -82,6 +161,26 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
       <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-XXXX" data-ad-slot="XXXX" data-ad-format="auto"></ins>
     </div>
     -->
+
+    <!-- Artigos relacionados -->
+    {relatedPosts.length > 0 && (
+      <section class="related container--narrow">
+        <h2 class="related-title">📖 Continue lendo</h2>
+        <div class="related-grid">
+          {relatedPosts.map(post => (
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              slug={post.slug}
+              pubDate={post.data.pubDate}
+              category={post.data.category}
+              readTime={post.data.readTime}
+              heroImage={post.data.heroImage}
+            />
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- Footer do post -->
     <footer class="post-footer container--narrow">
@@ -171,6 +270,24 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
   color: var(--color-muted);
 }
 
+.pillar-callout {
+  background: rgba(0, 212, 255, 0.08);
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1.1rem;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-bottom: 2rem;
+}
+
+.pillar-callout a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pillar-callout a:hover { color: var(--color-secondary); }
+
 .post-content {
   padding-block: 0.5rem 2rem;
 }
@@ -183,6 +300,23 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
   padding: 1rem;
   text-align: center;
   min-height: 100px;
+}
+
+.related {
+  padding-block: 2.5rem 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.related-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 1.25rem;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
 }
 
 .post-footer {

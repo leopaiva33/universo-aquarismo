@@ -55,6 +55,28 @@ const fullTitle = title.includes('Universo Aquarismo') ? title : `${title} | Uni
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate" type="application/rss+xml" title="Universo Aquarismo" href="/rss.xml" />
 
+    <!-- Structured data: Website + Organization -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'WebSite',
+          '@id': `${siteUrl}/#website`,
+          url: siteUrl,
+          name: 'Universo Aquarismo',
+          description: 'Guias completos sobre iluminação para aquário, plantas aquáticas e tudo sobre aquarismo.',
+          inLanguage: 'pt-BR',
+        },
+        {
+          '@type': 'Organization',
+          '@id': `${siteUrl}/#organization`,
+          name: 'Universo Aquarismo',
+          url: siteUrl,
+          logo: `${siteUrl}/favicon.svg`,
+        },
+      ],
+    })} />
+
     <!-- Preload da fonte Inter (inicia download antes do CSS) -->
     <link rel="preload" href="/fonts/inter-variable.woff2" as="font" type="font/woff2" crossorigin />
 

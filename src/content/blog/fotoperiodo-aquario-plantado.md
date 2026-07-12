@@ -2,12 +2,12 @@
 title: "Fotoperíodo Aquário Plantado: Guia Completo para Iluminação"
 description: "Descubra o fotoperíodo ideal para aquário plantado, como evitar algas e otimizar o crescimento das plantas aquáticas com iluminação correta."
 pubDate: 2026-05-25
-category: "aquarios-plantados"
+category: "Plantas Aquáticas"
 tags: [fotopereriodo-aquario-plantado, iluminacao-aquario, plantas-aquaticas, controle-de-algas, aquascaping, aquario-plantado, iluminacao-led]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/fotoperiodo-aquario-plantado.jpg"
+heroImage: "../../assets/blog/fotoperiodo-aquario-plantado.jpg"
 ---
 
 A iluminação inadequada é responsável por mais de 60% dos problemas em aquários plantados, segundo levantamentos de clubes de aquarismo em todo o Brasil. O fotoperíodo — período em que as luzes permanecem acesas — determina o sucesso ou fracasso do seu layout aquático.

@@ -2,12 +2,12 @@
 title: "Iluminação para Aquário 60cm: Guia Completo de Escolha"
 description: "Descubra a melhor iluminação para aquário 60cm. Tipos de lâmpadas, potência ideal, comparativo de produtos e dicas práticas para cada biotipo."
 pubDate: 2026-07-07
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, aquario-60cm, lampada-led-aquario, equipamentos-aquarismo, iluminacao-plantada, aquario-plantado, luz-aquario]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-60cm.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-60cm.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário de 60cm. Ela define se as plantas crescerão saudáveis, se as cores dos peixes se destacarão e se o ambiente ficará equilibrado. Mais do que estética, a luz certa é fundamental para o ciclo biológico do seu aquário.

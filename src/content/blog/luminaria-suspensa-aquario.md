@@ -2,12 +2,12 @@
 title: "Luminária Suspensa Aquário: Guia Completo para Escolher"
 description: "Descubra tudo sobre luminária suspensa para aquário: vantagens, tipos, instalação e como escolher o modelo ideal para seu aquascaping."
 pubDate: 2026-06-24
-category: "equipamentos"
+category: "Equipamentos"
 tags: [luminaria-suspensa-aquario, iluminacao-aquario, aquascaping, equipamentos-aquario, led-aquario, iluminacao-plantada, aquario-plantado]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/luminaria-suspensa-aquario.jpg"
+heroImage: "../../assets/blog/luminaria-suspensa-aquario.jpg"
 ---
 
 A iluminação é um dos pilares fundamentais para manter um aquário saudável e esteticamente impressionante. Entre as opções disponíveis, a luminária suspensa para aquário tem conquistado cada vez mais aquaristas que buscam funcionalidade sem abrir mão da beleza.

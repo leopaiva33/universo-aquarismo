@@ -2,12 +2,12 @@
 title: "LED com Controle para Aquário: Guia Completo 2026"
 description: "Descubra como escolher o melhor LED com controle para aquário. Análise de modelos, funcionalidades e vantagens da iluminação inteligente."
 pubDate: 2026-06-25
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, led-aquario, controle-remoto, automacao-aquario, iluminacao-inteligente, equipamentos-aquarismo, tecnologia-aquario]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-com-controle-para-aquario.jpg"
+heroImage: "../../assets/blog/led-com-controle-para-aquario.jpg"
 ---
 
 A iluminação com LED controlável revolucionou o aquarismo moderno. Aquaristas de todos os níveis buscam sistemas que ofereçam praticidade, economia e resultados visuais impressionantes. A capacidade de ajustar intensidade, cor e programar ciclos luminosos transforma completamente a experiência de manter um aquário saudável.

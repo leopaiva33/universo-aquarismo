@@ -2,12 +2,12 @@
 title: "Espectro de Luz para Plantas Aquáticas: Guia Completo"
 description: "Descubra qual espectro de luz para plantas aquáticas garante crescimento saudável. Entenda PAR, Kelvin e como escolher a iluminação ideal."
 pubDate: 2026-05-22
-category: "iluminacao-aquario"
+category: "Plantas Aquáticas"
 tags: [espectro-de-luz, plantas-aquaticas, iluminacao-aquario, par-aquario, fotossintese-aquatica, led-aquario, kelvin]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/espectro-de-luz-para-plantas-aquaticas.jpg"
+heroImage: "../../assets/blog/espectro-de-luz-para-plantas-aquaticas.jpg"
 ---
 
 A iluminação adequada é o coração de um aquário plantado vibrante. Sem o espectro correto, plantas que poderiam exibir tons vermelhos intensos aparecem pálidas, e espécies exigentes simplesmente definhando. A luz não é apenas uma questão de quantidade — a qualidade do espectro determina como suas plantas realizam fotossíntese e desenvolvem pigmentos.
