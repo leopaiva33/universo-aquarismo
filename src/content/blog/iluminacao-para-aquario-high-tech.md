@@ -2,7 +2,7 @@
 title: "Iluminação para Aquário High Tech: Guia Completo 2026"
 description: "Descubra como escolher a iluminação ideal para aquário high tech, tipos de lâmpadas, espectro correto e configurações para plantas exigentes."
 pubDate: 2026-05-29
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, aquario-high-tech, plantas-aquaticas, led-aquario, aquapaisagismo, parametros-agua, fotossintese]
 readTime: 12
 featured: false

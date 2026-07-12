@@ -2,7 +2,7 @@
 title: "PAR no Aquário Marinho: Guia Completo de Iluminação"
 description: "Descubra como medir e ajustar o PAR no aquário marinho para manter corais saudáveis. Guia prático com valores ideais e equipamentos."
 pubDate: 2026-06-10
-category: "Equipamentos"
+category: "Aquário Marinho"
 tags: [par-aquario-marinho, iluminacao-aquario, corais, reef, equipamentos-aquarismo, led-aquario, parametros-agua]
 readTime: 12
 featured: false

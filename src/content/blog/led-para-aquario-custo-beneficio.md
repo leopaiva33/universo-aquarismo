@@ -2,7 +2,7 @@
 title: "LED para Aquário Custo Benefício: Guia Completo 2026"
 description: "Descubra os melhores LEDs para aquário com excelente custo benefício. Comparamos marcas, potências e preços para você escolher certo."
 pubDate: 2026-07-06
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, led-aquario, custo-beneficio, equipamentos-aquario, economia-aquarismo, iluminacao-plantas, lumens-aquario]
 readTime: 12
 featured: false

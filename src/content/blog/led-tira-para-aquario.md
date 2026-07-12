@@ -2,7 +2,7 @@
 title: "LED Tira para Aquário: Guia Completo de Compra 2026"
 description: "Descubra como escolher a melhor LED tira para aquário. Comparativo de modelos, instalação e dicas para iluminar seu aquário com economia."
 pubDate: 2026-06-18
-category: "equipamentos"
+category: "Equipamentos"
 tags: [led-aquario, iluminacao-aquario, fita-led, equipamentos-aquario, aquario-plantado, iluminacao-led, aquapaisagismo]
 readTime: 12
 featured: false

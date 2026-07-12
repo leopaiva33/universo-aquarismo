@@ -2,7 +2,7 @@
 title: "Melhor LED para Aquário Plantado: Guia Completo 2026"
 description: "Descubra o melhor LED para aquário plantado. Análise detalhada de intensidade, espectro e modelos testados para plantas saudáveis."
 pubDate: 2026-06-30
-category: "equipamentos"
+category: "Plantas Aquáticas"
 tags: [iluminacao-aquario, aquario-plantado, led-para-plantas, equipamentos-aquarismo, iluminacao-led, plantas-aquaticas, aquapaisagismo]
 readTime: 12
 featured: false

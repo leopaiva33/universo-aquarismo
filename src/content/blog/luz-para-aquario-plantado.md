@@ -2,7 +2,7 @@
 title: "Luz para Aquário Plantado: Guia Definitivo 2026"
 description: "Descubra como escolher a melhor luz para aquário plantado. Tipos, intensidade, espectro e modelos ideais para suas plantas aquáticas."
 pubDate: 2026-05-19
-category: "equipamentos"
+category: "Plantas Aquáticas"
 tags: [luz-para-aquario, aquario-plantado, iluminacao-aquario, plantas-aquaticas, led-aquario, equipamentos-aquarismo, fotossintese-aquatica]
 readTime: 12
 featured: false

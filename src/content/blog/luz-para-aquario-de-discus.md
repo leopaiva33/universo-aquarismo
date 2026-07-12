@@ -2,7 +2,7 @@
 title: "Luz para Aquário de Discus: Guia Completo 2026"
 description: "Descubra a iluminação ideal para seu aquário de discus. Temperatura, intensidade e tipo de luz para manter seus peixes saudáveis e coloridos."
 pubDate: 2026-06-15
-category: "equipamentos"
+category: "Peixes"
 tags: [luz-para-aquario, discus, iluminacao-aquario, peixes-tropicais, aquario-plantado, equipamentos-aquarismo, cuidados-discus]
 readTime: 12
 featured: false

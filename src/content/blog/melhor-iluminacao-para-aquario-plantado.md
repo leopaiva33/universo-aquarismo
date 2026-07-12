@@ -2,7 +2,7 @@
 title: "Melhor Iluminação para Aquário Plantado: Guia 2026"
 description: "Descubra a melhor iluminação para aquário plantado: tipos de lâmpadas, spectrum ideal, intensidade e marcas recomendadas para plantas saudáveis."
 pubDate: 2026-05-21
-category: "equipamentos"
+category: "Plantas Aquáticas"
 tags: [iluminacao-aquario, aquario-plantado, led-aquario, plantas-aquaticas, equipamentos-aquarismo, iluminacao-led, aquapaisagismo]
 readTime: 12
 featured: false

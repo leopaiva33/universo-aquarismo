@@ -2,7 +2,7 @@
 title: "Luz para Coral: Guia Completo para Escolher a Ideal"
 description: "Descubra qual luz para coral funciona melhor no seu aquário. Análise de tipos, intensidade, espectro e temperatura ideal."
 pubDate: 2026-06-04
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [luz-para-coral, iluminacao-aquario, corais-marinhos, aquario-marinho, equipamentos-aquario, reef-tank, led-aquario]
 readTime: 12
 featured: false

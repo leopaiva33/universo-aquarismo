@@ -42,8 +42,11 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
 const siteUrl = 'https://universoaquarista.com';
 const postUrl = `${siteUrl}/blog/${slug}`;
 
-// Artigos relacionados: mesma categoria primeiro, depois tags em comum
+// Artigo pilar do cluster (mesma categoria): concentra a autoridade da categoria
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const pillarPost = allPosts.find(p => p.data.category === category && p.data.featured && p.slug !== slug);
+
+// Artigos relacionados: mesma categoria primeiro, depois tags em comum
 const relatedPosts = allPosts
   .filter(p => p.slug !== slug)
   .map(p => {
@@ -115,6 +118,13 @@ const jsonLd = {
         )}
       </div>
     </header>
+
+    <!-- Guia pilar do cluster: concentra autoridade e evita canibalização de palavra-chave -->
+    {pillarPost && (
+      <div class="pillar-callout container--narrow">
+        📌 Guia completo sobre {category}: <a href={`/blog/${pillarPost.slug}`}>{pillarPost.data.title}</a>
+      </div>
+    )}
 
     <!-- Adsense slot (topo do artigo) -->
     <!--
@@ -242,6 +252,24 @@ const jsonLd = {
   font-size: 0.78rem;
   color: var(--color-muted);
 }
+
+.pillar-callout {
+  background: rgba(0, 212, 255, 0.08);
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1.1rem;
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-bottom: 2rem;
+}
+
+.pillar-callout a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pillar-callout a:hover { color: var(--color-secondary); }
 
 .post-content {
   padding-block: 0.5rem 2rem;

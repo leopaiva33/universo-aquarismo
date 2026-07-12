@@ -2,7 +2,7 @@
 title: "LED Full Spectrum para Aquário: Guia Completo 2026"
 description: "Descubra como escolher a iluminação LED full spectrum ideal para seu aquário. Comparativo, benefícios e análise técnica completa."
 pubDate: 2026-06-17
-category: "equipamentos"
+category: "Equipamentos"
 tags: [led-full-spectrum-aquario, iluminacao-aquario, equipamentos-aquarismo, plantas-aquaticas, iluminacao-led, aquapaisagismo]
 readTime: 12
 featured: false

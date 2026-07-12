@@ -2,10 +2,10 @@
 title: "Melhor Iluminação para Aquário: Guia Completo 2026"
 description: "Descubra a melhor iluminação para aquário com análises detalhadas de LED, fluorescente e HQI. Compare modelos e escolha o ideal."
 pubDate: 2026-07-01
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, led-aquario, equipamentos-aquario, aquario-plantado, iluminacao-led, aquarismo-iniciante, aquario-marinho]
 readTime: 12
-featured: false
+featured: true
 draft: false
 heroImage: "/images/blog/melhor-iluminacao-para-aquario.jpg"
 ---

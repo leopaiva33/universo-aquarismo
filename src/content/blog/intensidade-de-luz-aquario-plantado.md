@@ -2,7 +2,7 @@
 title: "Intensidade de Luz Aquário Plantado: Guia Completo"
 description: "Descubra como calcular e ajustar a intensidade de luz aquário plantado ideal para suas plantas aquáticas crescerem saudáveis e vibrantes."
 pubDate: 2026-05-26
-category: "aquarios-plantados"
+category: "Plantas Aquáticas"
 tags: [intensidade-luz-aquario, iluminacao-aquario-plantado, par-aquario, lumens-aquario, plantas-aquaticas, led-aquario, fotossintese-aquatica]
 readTime: 12
 featured: false

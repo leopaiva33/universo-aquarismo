@@ -2,7 +2,7 @@
 title: "Watts por Litro em Aquário Plantado: Guia Completo 2026"
 description: "Descubra como calcular watts por litro no aquário plantado, entenda a iluminação LED moderna e escolha a luz ideal para suas plantas."
 pubDate: 2026-05-27
-category: "equipamentos"
+category: "Plantas Aquáticas"
 tags: [iluminacao-aquario, aquario-plantado, watts-por-litro, luz-para-plantas, led-aquario, aquapaisagismo, calculo-iluminacao]
 readTime: 12
 featured: false

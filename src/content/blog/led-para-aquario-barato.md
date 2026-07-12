@@ -2,7 +2,7 @@
 title: "LED para Aquário Barato: Guia Completo de Compra 2026"
 description: "Descubra os melhores LED para aquário barato sem comprometer qualidade. Guia prático com comparações, dicas de economia e marcas confiáveis."
 pubDate: 2026-07-02
-category: "equipamentos"
+category: "Equipamentos"
 tags: [led-para-aquario, iluminacao-aquario, equipamentos-baratos, aquarismo-economico, lampada-led-aquario, iluminacao-plantado, setup-aquario]
 readTime: 12
 featured: false

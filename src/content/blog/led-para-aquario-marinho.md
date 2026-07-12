@@ -2,7 +2,7 @@
 title: "LED para Aquário Marinho: Guia Completo de Escolha"
 description: "Descubra como escolher o melhor LED para aquário marinho. Espectro, PAR, temperatura de cor e recomendações para corais e peixes."
 pubDate: 2026-06-02
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [led-para-aquario-marinho, iluminacao-aquario, aquario-marinho, iluminacao-corais, equipamentos-aquario, reef-tank, aquarismo-marinho]
 readTime: 12
 featured: false

@@ -2,7 +2,7 @@
 title: "Iluminação para Aquário 120cm: Guia Completo 2026"
 description: "Descubra como escolher a melhor iluminação para aquário 120cm. Tipos de lâmpadas, potência ideal e análise das melhores marcas do mercado."
 pubDate: 2026-07-09
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, aquario-120cm, luminaria-led-aquario, equipamentos-aquarismo, iluminacao-plantado, aquario-medio]
 readTime: 12
 featured: false

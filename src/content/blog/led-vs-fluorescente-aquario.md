@@ -6,7 +6,7 @@ updatedDate: 2025-03-01
 category: "Iluminação LED"
 tags: ["led", "fluorescente", "comparativo", "custo-beneficio"]
 readTime: 8
-featured: true
+featured: false
 ---
 
 Uma das dúvidas mais comuns entre aquaristas é: **vale a pena trocar a fluorescente pelo LED?** A resposta curta é sim — mas vamos entender por quê com dados concretos.

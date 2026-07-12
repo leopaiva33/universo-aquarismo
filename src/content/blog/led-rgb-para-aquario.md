@@ -2,7 +2,7 @@
 title: "LED RGB para Aquário: Guia Completo de Escolha e Uso"
 description: "Descubra como escolher o melhor LED RGB para aquário. Tecnologia, cores, espectro ideal e modelos recomendados para peixes e plantas."
 pubDate: 2026-06-16
-category: "equipamentos"
+category: "Equipamentos"
 tags: [led-rgb-para-aquario, iluminacao-aquario, led-aquario, equipamentos-aquario, aquarismo-plantado, iluminacao-peixes, tecnologia-aquario]
 readTime: 12
 featured: false

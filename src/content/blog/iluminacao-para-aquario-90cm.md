@@ -2,7 +2,7 @@
 title: "Iluminação para Aquário 90cm: Guia Completo 2026"
 description: "Descubra como escolher a iluminação ideal para aquário 90cm. Tipos de luminárias, potência necessária e as melhores opções do mercado."
 pubDate: 2026-07-08
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, aquario-90cm, luminaria-led-aquario, iluminacao-plantado, equipamentos-aquarismo]
 readTime: 12
 featured: false

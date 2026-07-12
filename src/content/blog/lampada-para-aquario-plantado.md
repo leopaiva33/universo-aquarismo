@@ -2,7 +2,7 @@
 title: "Lâmpada para Aquário Plantado: Guia Completo 2026"
 description: "Descubra como escolher a lâmpada ideal para aquário plantado. Tipos, espectros, intensidade e as melhores opções do mercado."
 pubDate: 2026-05-21
-category: "equipamentos"
+category: "Plantas Aquáticas"
 tags: [lampada-aquario-plantado, iluminacao-aquario, plantas-aquaticas, led-aquario, espectro-luz, aquapaisagismo, aquario-plantado]
 readTime: 12
 featured: false

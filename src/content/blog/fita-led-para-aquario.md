@@ -2,7 +2,7 @@
 title: "Fita LED para Aquário: Guia Completo de Iluminação Aquática"
 description: "Descubra como escolher e instalar fita LED para aquário. Tipos, cores ideais, consumo e segurança para peixes e plantas."
 pubDate: 2026-06-19
-category: "equipamentos"
+category: "Equipamentos"
 tags: [fita-led-aquario, iluminacao-aquario, led-aquatico, equipamentos-aquario, iluminacao-plantas, aquapaisagismo]
 readTime: 12
 featured: false

@@ -2,7 +2,7 @@
 title: "Luminária Aquário 50cm: Guia Completo para Escolher a Ideal"
 description: "Descubra como escolher a melhor luminária aquário 50cm para plantas e peixes. Comparativo de modelos LED, potência ideal e instalação."
 pubDate: 2026-07-10
-category: "equipamentos"
+category: "Equipamentos"
 tags: [luminaria-aquario, iluminacao-aquario, aquario-plantado, led-aquario, equipamentos-aquarismo, nano-aquario, aquario-50cm]
 readTime: 12
 featured: false

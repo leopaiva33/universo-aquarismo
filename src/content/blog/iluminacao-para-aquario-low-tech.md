@@ -2,7 +2,7 @@
 title: "Iluminação para Aquário Low Tech: Guia Completo"
 description: "Descubra como escolher a iluminação ideal para seu aquário low tech. Guia prático com tipos de lâmpadas, intensidade e economia."
 pubDate: 2026-05-28
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, aquario-low-tech, lampadas-aquario, plantado-low-tech, equipamentos-aquario, iluminacao-plantas, economia-aquario]
 readTime: 12
 featured: false

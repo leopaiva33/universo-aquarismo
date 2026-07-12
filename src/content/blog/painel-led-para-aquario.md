@@ -2,7 +2,7 @@
 title: "Painel LED para Aquário: Guia Completo de Escolha"
 description: "Descubra como escolher o painel LED para aquário ideal. Comparamos modelos, especificações técnicas e orientamos sua compra com expertise."
 pubDate: 2026-06-23
-category: "equipamentos"
+category: "Equipamentos"
 tags: [painel-led-aquario, iluminacao-aquario, equipamentos-aquarismo, led-aquario, plantado, iluminacao-subaquatica, aquario-plantado]
 readTime: 12
 featured: false
