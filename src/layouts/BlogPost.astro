@@ -2,6 +2,7 @@
 import Layout from './Layout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
+import { getCategoryByName } from '../utils/categories';
 
 interface Props {
   title: string;
@@ -41,6 +42,7 @@ const formattedUpdated = updatedDate?.toLocaleDateString('pt-BR', {
 
 const siteUrl = 'https://universoaquarista.com';
 const postUrl = `${siteUrl}/blog/${slug}`;
+const categoryInfo = getCategoryByName(category);
 
 // Artigo pilar do cluster (mesma categoria): concentra a autoridade da categoria
 const allPosts = await getCollection('blog', ({ data }) => !data.draft);
@@ -101,7 +103,11 @@ const jsonLd = {
         </div>
       )}
       <div class="container--narrow">
-        <div class="post-category">{category}</div>
+        {categoryInfo ? (
+          <a href={`/categoria/${categoryInfo.slug}`} class="post-category">{category}</a>
+        ) : (
+          <div class="post-category">{category}</div>
+        )}
         <h1 class="post-title">{title}</h1>
         <p class="post-description">{description}</p>
         <div class="post-meta">
