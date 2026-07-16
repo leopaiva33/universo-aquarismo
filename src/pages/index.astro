@@ -105,10 +105,9 @@ const recentPosts = sortedPosts.slice(0, 6);
           <h2>📬 Fique por dentro das novidades</h2>
           <p>Receba os melhores artigos sobre aquarismo diretamente no seu e-mail.</p>
         </div>
-        <form class="newsletter-form" action="#" method="post">
-          <input type="email" placeholder="seu@email.com" required aria-label="Seu e-mail" />
-          <button type="submit">Inscrever-se</button>
-        </form>
+        <button type="button" class="newsletter-cta ml-onclick-form" onclick="ml('show', 'yUDg0o', true)">
+          Inscrever-se
+        </button>
       </div>
     </div>
   </section>
@@ -204,30 +203,7 @@ const recentPosts = sortedPosts.slice(0, 6);
   font-size: 0.9rem;
 }
 
-.newsletter-form {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.newsletter-form input {
-  flex: 1;
-  min-width: 220px;
-  padding: 0.7rem 1rem;
-  background: var(--color-bg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  color: var(--color-text);
-  font-size: 0.9rem;
-  outline: none;
-  transition: border-color 0.2s;
-}
-
-.newsletter-form input:focus {
-  border-color: var(--color-primary);
-}
-
-.newsletter-form button {
+.newsletter-cta {
   padding: 0.7rem 1.5rem;
   background: var(--color-primary);
   color: #0a0e1a;
@@ -235,12 +211,13 @@ const recentPosts = sortedPosts.slice(0, 6);
   border-radius: var(--radius-sm);
   font-weight: 700;
   font-size: 0.9rem;
+  font-family: var(--font-sans);
   cursor: pointer;
   transition: background 0.2s, transform 0.2s;
   white-space: nowrap;
 }
 
-.newsletter-form button:hover {
+.newsletter-cta:hover {
   background: var(--color-secondary);
   transform: translateY(-1px);
 }
