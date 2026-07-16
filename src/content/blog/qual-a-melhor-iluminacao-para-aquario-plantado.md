@@ -2,12 +2,12 @@
 title: "Melhor Iluminação para Aquário Plantado: Guia Completo"
 description: "Descubra qual a melhor iluminação para aquário plantado, tipos de lâmpadas, intensidade ideal e como escolher o sistema perfeito."
 pubDate: 2026-07-14
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, aquario-plantado, lampada-led, equipamentos-aquario, plantio-aquatico, aquapaisagismo, manutencao-aquario]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/qual-a-melhor-iluminacao-para-aquario-plantado.jpg"
+heroImage: "../../assets/blog/qual-a-melhor-iluminacao-para-aquario-plantado.jpg"
 ---
 
 A iluminação representa o coração de um aquário plantado bem-sucedido. Sem luz adequada, mesmo as plantas mais resistentes definham, o crescimento estagna e o aquascape perde toda sua vitalidade.

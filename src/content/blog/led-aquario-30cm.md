@@ -2,12 +2,12 @@
 title: "LED Aquário 30cm: Guia Completo de Escolha e Instalação"
 description: "Descubra como escolher o LED aquário 30cm ideal para seu projeto. Guia completo com comparações, lumens necessários e melhores marcas 2026."
 pubDate: 2026-07-13
-category: "equipamentos"
+category: "Equipamentos"
 tags: [led-aquario, iluminacao-aquario, aquario-30cm, equipamentos-aquario, planted-tank, iluminacao-led, nano-aquario]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-aquario-30cm.jpg"
+heroImage: "../../assets/blog/led-aquario-30cm.jpg"
 ---
 
 A iluminação define o sucesso do seu aquário de 30cm. Escolher o LED adequado vai além de simplesmente "clarear" o aquário – impacta diretamente no crescimento das plantas, no comportamento dos peixes e na prevenção de algas indesejadas.
