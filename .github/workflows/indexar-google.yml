@@ -1,0 +1,25 @@
+name: Solicitar Indexação no Google
+
+on:
+  workflow_dispatch:
+
+jobs:
+  indexar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências Python
+        run: pip install google-auth requests
+
+      - name: Solicitar indexação no Google
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/indexar_google.py
