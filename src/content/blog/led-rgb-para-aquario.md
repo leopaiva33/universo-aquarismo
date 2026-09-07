@@ -129,4 +129,10 @@ O potencial do LED RGB se revela quando você domina as configurações de cores
 
 Para **observação noturna**, configure apenas os LEDs azuis em 5-10% de intensidade. Isso permite visualizar comportamentos noturnos sem interferir no ciclo natural. Coridoras, cascudos e botias se tornam ativos e exibem interações sociais interessantes.
 
-**Prevenção de algas** relaciona-se diretamente com duração e intensidade. Mesmo com o melhor espectro, períodos superiores a 10 horas diárias estimulam algas. Configure temporizadores para 8 horas inicialmente, com pausas médias (siesta) de 2 horas no meio do dia, dividindo em dois períodos de 4 h
+**Prevenção de algas** relaciona-se diretamente com duração e intensidade. Mesmo com o melhor espectro, períodos superiores a 10 horas diárias estimulam algas. Configure temporizadores para 8 horas inicialmente, com pausas médias (siesta) de 2 horas no meio do dia, dividindo em dois períodos de 4 horas. Essa técnica reduz o tempo total de exposição contínua sem comprometer o fotoperíodo efetivo para as plantas.
+
+## Conclusão
+
+O LED RGB oferece uma flexibilidade que nenhuma outra tecnologia de iluminação consegue igualar — a mesma luminária serve para maximizar crescimento de plantas, realçar cores de peixes ou recriar biotopos específicos, bastando ajustar a proporção entre os canais.
+
+Comece com as configurações básicas sugeridas para o seu objetivo principal, documente o resultado nas primeiras semanas e refine gradualmente. O verdadeiro valor do RGB está em poder experimentar sem precisar trocar de equipamento.

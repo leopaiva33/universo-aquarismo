@@ -218,4 +218,10 @@ Busque revendedores autorizados que ofereçam garantia oficial. LEDs importados 
 O ciclo ideal para aquários marinhos é 8-10 horas de luz plena, com 1-2 horas de rampa no amanhecer e anoitecer. Períodos mais longos favorecem algas indesejadas sem beneficiar os corais. Alguns aquaristas incluem 1-2 horas de "modo lunar" com apenas azuis profundos para observação noturna.
 
 **Posso usar LED de água doce em aquário marinho?**
-Tecnicamente funciona, mas com resultados ruins. O espectro inadequado causa crescimento lento de corais e proliferação de algas. LEDs de água doce enfatizam verde-amar
+Tecnicamente funciona, mas com resultados ruins. O espectro inadequado causa crescimento lento de corais e proliferação de algas. LEDs de água doce enfatizam verde-amarelo para reproduzir cores de plantas, exatamente o oposto do azul intenso que zooxantelas e corais precisam para fotossíntese eficiente.
+
+## Conclusão
+
+Escolher o LED certo para aquário marinho é decisão que impacta diretamente a saúde de corais e a estabilidade do sistema. PAR adequado, forte componente azul e aclimatação gradual de novos corais são os três pilares que separam um reef saudável de um cheio de problemas.
+
+Defina primeiro o tipo de coral que pretende manter — moles, LPS ou SPS — e escolha o equipamento com base no PAR que essas espécies exigem, não apenas no preço ou na estética da luminária. O investimento certo desde o início evita trocas caras no futuro.

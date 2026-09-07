@@ -184,4 +184,10 @@ Ao combinar sistemas, garanta que os espectros se complementem em vez de competi
 
 Analisar o investimento em fita LED vai além do preço inicial. Considere custo total de propriedade ao longo de 3-5 anos.
 
-Uma f
+Uma fita de boa qualidade custa mais na compra, mas compensa com maior vida útil, espectro estável e menor consumo de energia comparado a opções genéricas que degradam rapidamente. Fitas baratas sem certificação IP adequada costumam falhar em 6-12 meses de uso próximo à água, exigindo substituição — o que anula qualquer economia inicial.
+
+## Conclusão
+
+A fita LED é uma das formas mais versáteis e acessíveis de complementar a iluminação de um aquário, seja para criar destaque em pontos específicos, seja para compor um sistema híbrido com outras fontes de luz. O segredo está em escolher um produto com certificação de resistência à água adequada e espectro compatível com o objetivo — plantas, peixes ou corais.
+
+Invista em uma fita de qualidade reconhecida, instale com folga para dissipação de calor e monitore a degradação ao longo dos anos. Esses cuidados simples garantem anos de uso sem surpresas.

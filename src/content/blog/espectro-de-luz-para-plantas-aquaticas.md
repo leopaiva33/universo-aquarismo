@@ -203,4 +203,10 @@ Exemplo de programação:
 
 ### Período de Adaptação
 
-Ao instalar nova iluminação ou mudar espectro, reduza a intensidade inicial para 50-60% durante 1-2 semanas. Isso permite que plantas se adaptem sem ch
+Ao instalar nova iluminação ou mudar espectro, reduza a intensidade inicial para 50-60% durante 1-2 semanas. Isso permite que plantas se adaptem sem choque luminoso e evita a explosão de algas que costuma acompanhar mudanças bruscas de espectro ou intensidade.
+
+## Conclusão
+
+O espectro de luz é, junto com a intensidade e o fotoperíodo, um dos três pilares que determinam se um aquário plantado prospera ou apenas sobrevive. Priorizar as faixas vermelha e azul — as mais usadas na fotossíntese — importa mais do que perseguir uma temperatura de cor específica em Kelvin.
+
+Escolha uma luminária com boa cobertura nessas faixas, ajuste a intensidade gradualmente ao introduzir novo equipamento e trate o controle de algas como sintoma de desequilíbrio nutricional, não como um problema de espectro a ser resolvido isoladamente.
