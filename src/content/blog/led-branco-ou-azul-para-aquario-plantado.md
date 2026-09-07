@@ -172,4 +172,10 @@ A melhor luminária instalada incorretamente produz resultados medíocres.
 
 A distância entre a luminária e a superfície da água afeta significativamente a intensidade e distribuição. Posicionar muito próximo (menos de 10cm) pode criar pontos quentes com crescimento desigual. Distâncias acima de 25cm reduzem demasiadamente a intensidade em aquários até 50cm de altura.
 
-Para aquários abertos, 15-20cm acima da
+Para aquários abertos, 15-20cm acima da superfície costuma ser o ponto ideal — distância suficiente para evitar respingos e ao mesmo tempo manter boa penetração de luz até o substrato.
+
+## Conclusão
+
+A escolha entre LED branco, azul ou uma combinação dos dois depende menos de preferência estética e mais do que suas plantas realmente precisam para fotossíntese eficiente. Branco puro com bom componente vermelho resolve a maioria dos aquários plantados; azul entra como complemento para realçar cores ou compor biotopos específicos, não como substituto do espectro fotossintético.
+
+Escolha com base no estilo de aquascape que pretende montar, priorize PAR e CRI documentados pelo fabricante em vez de apenas temperatura de cor, e ajuste a posição da luminária observando a resposta das plantas nas primeiras semanas.

@@ -200,4 +200,10 @@ Aquários plantados low-tech precisam de 30-40 lúmens por litro. Espectro compl
 
 Aquários amazônicos se beneficiam de luz levemente amarelada (5500-6000K). Isso imita as águas escuras naturais e realça cores dos peixes.
 
-**Beteiros e aquários pequenos** (até 
+**Beteiros e aquários pequenos** (até 20 litros) não exigem investimento alto — um LED básico de 6-10W com boa proteção contra umidade já resolve, já que betas e outras espécies de aquários nano não têm demanda de plantas exigentes.
+
+## Conclusão
+
+É totalmente possível montar um aquário bonito e saudável sem gastar uma fortuna em iluminação — o segredo é entender que "barato" e "de baixa qualidade" não são sinônimos. Um LED simples, mas com espectro adequado e boa resistência à umidade, atende muito bem a maioria dos aquários comunitários e plantados leves.
+
+Calcule o tamanho certo para o seu aquário, leia avaliações de outros compradores antes de decidir, e lembre-se que o custo operacional ao longo dos anos importa tanto quanto o preço de compra. Economia de verdade vem de escolher bem, não de escolher o mais barato.

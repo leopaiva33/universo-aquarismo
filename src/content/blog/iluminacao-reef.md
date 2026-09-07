@@ -221,4 +221,10 @@ LEDs de qualidade mantêm 80% da intensidade original por 50.000-70.000 horas de
 
 ### Posso usar LED comum ou precisa ser específico para reef?
 
-LEDs domésticos não funcionam para corais. O espectro é completamente inadequado, focado em luz branca para visibilidade humana. LEDs reef são projetados com picos específicos em 440nm e 460nm (azul), além de canais UV/violeta. A diferença nos resultados é dramática. Invista
+LEDs domésticos não funcionam para corais. O espectro é completamente inadequado, focado em luz branca para visibilidade humana. LEDs reef são projetados com picos específicos em 440nm e 460nm (azul), além de canais UV/violeta. A diferença nos resultados é dramática. Invista sempre em equipamento específico para aquarismo marinho, mesmo que o custo inicial seja maior.
+
+## Conclusão
+
+A iluminação de um reef tank é o fator que mais separa um sistema onde corais apenas sobrevivem de um onde realmente prosperam e crescem. PAR adequado à espécie, forte componente azul e aclimatação gradual formam a base de qualquer configuração bem-sucedida.
+
+Invista em equipamento específico para marinho, monitore a degradação ao longo dos anos e não hesite em combinar tecnologias (LED + T5) se buscar o melhor dos dois mundos. O resultado — corais vibrantes e crescimento consistente — compensa a atenção extra dedicada à iluminação.

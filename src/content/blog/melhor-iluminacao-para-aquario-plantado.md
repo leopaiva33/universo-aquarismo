@@ -143,4 +143,10 @@ Luminárias modernas de alta gama oferecem recursos que vão além da simples il
 
 A simulação de nascer e pôr do sol reduz stress nos peixes, que se assustam com mudanças bruscas de iluminação. O aumento gradual de intensidade pela manhã (30-60 minutos) imita condições naturais e resulta em comportamento mais relaxado.
 
-Simulação de clima adiciona variações aleatórias de intensidade, replicando nuvens passageiras. Este recurso é mais
+Simulação de clima adiciona variações aleatórias de intensidade, replicando nuvens passageiras. Este recurso é mais estético do que funcional, mas agrada aquaristas que valorizam a experiência visual do aquário tanto quanto o resultado biológico.
+
+## Conclusão
+
+A melhor iluminação para aquário plantado não é a mais cara ou a com mais recursos — é aquela cujo PAR e espectro combinam com as plantas que você pretende cultivar, dimensionada corretamente para o comprimento e a profundidade do seu aquário.
+
+Comece calculando a cobertura necessária, priorize refletores eficientes e resistência à degradação, e ajuste intensidade e fotoperíodo gradualmente observando o equilíbrio entre crescimento das plantas e ausência de algas. Esse processo, mais do que qualquer equipamento específico, é o que determina o sucesso do seu aquário plantado.
