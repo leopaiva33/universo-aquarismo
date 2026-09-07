@@ -207,4 +207,10 @@ Após estabelecer o fotoperíodo base, ajustes finos otimizam resultados conform
 
 **Crescimento excessivo de algas:** Reduza 30-60 minutos do fotoperíodo e verifique níveis de nutrientes.
 
-**Plantas estioladas (caules longos e finos):** Pode indicar luz insuficiente, mas verifique primeiro se o espectro luminoso está adequado
+**Plantas estioladas (caules longos e finos):** Pode indicar luz insuficiente, mas verifique primeiro se o espectro luminoso está adequado antes de simplesmente aumentar o fotoperíodo — muitas vezes o problema é espectro pobre em vermelho, não falta de horas de luz.
+
+## Conclusão
+
+O fotoperíodo é, ao lado da intensidade e do espectro, um dos três pilares que sustentam um aquário plantado saudável — e é o mais barato de acertar, já que depende apenas de um bom timer e disciplina para não mexer nele por impulso.
+
+Comece conservador (4-5 horas em aquários novos), aumente gradualmente conforme as plantas se estabelecem, e resista à tentação de aumentar o fotoperíodo toda vez que o crescimento parecer lento — na maioria das vezes, o ajuste certo está em outro lugar do sistema, não na duração da luz.

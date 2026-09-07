@@ -181,4 +181,10 @@ Não desligue completamente a luz. Use temporizador para manter o fotoperíodo r
 LED exclusivamente azul pode favorecer certos tipos de algas, especialmente cianobactérias, se usado sozinho. O ideal é usar LEDs full spectrum com balanço adequado entre todos os comprimentos de onda. Luzes muito azuladas (acima de 10.000K) devem ser evitadas em aquários de água doce.
 
 **Trocar a luminária resolve problemas com algas?**
-Raramente. Algas resultam de desequilíbrio entre vários fatores. Trocar apenas a luminária sem ajustar fotoperíodo
+Raramente. Algas resultam de desequilíbrio entre vários fatores. Trocar apenas a luminária sem ajustar fotoperíodo, fertilização e CO2 proporcionalmente costuma apenas mudar o tipo de alga dominante, não eliminar o problema.
+
+## Conclusão
+
+A iluminação raramente é a causa isolada de um surto de algas — ela é, na maioria das vezes, o gatilho que expõe um desequilíbrio já existente entre luz, nutrientes e CO2. Reduzir a luz alivia sintomas rapidamente, mas resolver a causa exige olhar para o sistema como um todo.
+
+Antes de trocar equipamento ou reduzir drasticamente o fotoperíodo, avalie fertilização, CO2 e rotina de manutenção. Na grande maioria dos casos, pequenos ajustes nesses três fatores resolvem o problema de forma mais duradoura do que qualquer mudança isolada na luminária.

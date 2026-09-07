@@ -169,4 +169,10 @@ O fotoperiodo padrão varia entre 8-10 horas diárias. Períodos mais longos nã
 
 A técnica de siesta (pausa no meio do dia) beneficia alguns sistemas. Duas sessões de 4-5 horas com intervalo de 2 horas reduzem algas sem prejudicar plantas. Funciona especialmente em aquários novos.
 
-Reduzir o fotoperiodo em 1-2 horas combate surtos de algas. Mantenha a mudança por 2-3 semanas até o reequilíbrio. Retorne gradualmente ao período original após estabilização
+Reduzir o fotoperiodo em 1-2 horas combate surtos de algas. Mantenha a mudança por 2-3 semanas até o reequilíbrio. Retorne gradualmente ao período original após estabilização, aumentando 30 minutos por semana enquanto monitora o comportamento das plantas e das algas.
+
+## Conclusão
+
+O melhor LED para aquário plantado é aquele cujo espectro e PAR combinam com a demanda das plantas que você pretende cultivar — não necessariamente o modelo mais caro ou mais badalado nos fóruns. Marcas intermediárias como Chihiros e Fluval atendem muito bem a maioria dos projetos, reservando os sistemas premium para aquascapers avançados que realmente aproveitam cada recurso extra.
+
+Defina o estilo de aquário que quer montar, calcule o PAR necessário para as plantas escolhidas, e ajuste fotoperíodo e intensidade gradualmente observando a resposta do sistema. Esse processo simples entrega resultados consistentes, independente da marca escolhida.

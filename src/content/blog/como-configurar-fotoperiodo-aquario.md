@@ -203,4 +203,12 @@ Vários conceitos equivocados circulam na comunidade aquarista, perpetuados por 
 ### Quanto tempo de luz o aquário deve receber por dia?
 Aquários plantados funcionam melhor com 6-8 horas diárias, podendo chegar a 10 horas para sistemas de baixa intensidade sem CO2. Aquários comunitários com poucas plantas devem manter 6-7 horas. O mais importante é a consistência: o mesmo período todos os dias, sem variações.
 
-### Posso dividir o fotoperíodo em dois
+### Posso dividir o fotoperíodo em dois períodos?
+
+Sim, essa técnica (conhecida como "siesta") divide a iluminação em dois blocos com uma pausa escura de 2-3 horas ao meio-dia. Alguns aquaristas relatam redução de algas com esse método, embora não haja consenso científico sobre sua eficácia real além do simples fotoperíodo total mais curto.
+
+## Conclusão
+
+Configurar o fotoperíodo corretamente é, junto com o timer que o mantém consistente, uma das intervenções mais baratas e eficazes que você pode fazer no seu aquário. A maioria dos problemas de algas melhora significativamente apenas ajustando a duração e a regularidade da luz, sem precisar trocar equipamento.
+
+Comece com um período conservador (6-8 horas), use sempre um timer automático e ajuste gradualmente observando o crescimento das plantas e o comportamento das algas antes de qualquer mudança mais drástica no sistema.
