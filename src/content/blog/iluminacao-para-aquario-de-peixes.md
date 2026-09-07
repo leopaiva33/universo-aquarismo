@@ -194,4 +194,16 @@ Antes de comprar, defina claramente o tipo de aquário desejado. Somente peixes?
 
 **Para aquários comunitários básicos:** LED simples de 6500K, 0,3-0,5W por litro, timer básico.
 
-**Para plantados low-tech:** LED full spectrum 6500-7500K, 0,5-0,8W por litro, timer com função
+**Para plantados low-tech:** LED full spectrum 6500-7500K, 0,5-0,8W por litro, timer com função sunrise/sunset para reduzir estresse dos peixes nas transições.
+
+**Para plantados high-tech (com CO2):** LED de alta performance com canais ajustáveis, 0,8-1,2W por litro, controlador programável para simular siesta e evitar picos de algas.
+
+**Para aquários marinhos:** LED específico com forte componente azul (450-460nm), PAR mínimo de 200 μmol/m²/s na superfície dos corais, e programação de fotoperíodo estendido (9-12 horas).
+
+Peça sempre a curva de PAR do fabricante antes de comprar, principalmente se o objetivo for um aquário plantado sério. Números de watts ou lúmens isolados raramente contam a história completa.
+
+## Conclusão
+
+A iluminação certa para um aquário de peixes vai muito além de "acender e ver os bichinhos". Ela define o comportamento, a saúde e as cores dos seus peixes, além de ser o motor que sustenta (ou desequilibra) qualquer planta que você mantenha junto.
+
+Comece identificando o perfil do seu aquário — comunitário, plantado ou marinho — calcule o PAR necessário e sempre use um timer para manter o fotoperíodo consistente. Pequenos ajustes na intensidade e no espectro costumam resolver a maioria dos problemas de algas e crescimento fraco, sem precisar trocar o equipamento inteiro.

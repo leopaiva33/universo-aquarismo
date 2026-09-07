@@ -198,4 +198,18 @@ Mesmo sistemas LED de alta qualidade requerem manutenção para desempenho ótim
 
 ### Aquários Dutch (Holandês)
 
-O estilo holandês, com suas ruas de plantas e contraste de cores, demanda iluminação média a alta (40-60 μmol/m²/s). A variedade de espécies com necessidades diferentes requer intensidade suficiente para as mais
+O estilo holandês, com suas ruas de plantas e contraste de cores, demanda iluminação média a alta (40-60 μmol/m²/s). A variedade de espécies com necessidades diferentes requer intensidade suficiente para as mais exigentes, sem exagerar a ponto de prejudicar as espécies mais sensíveis à luz direta. Luminárias com canais ajustáveis ajudam a equilibrar essa diversidade em um único aquário.
+
+### Nature Aquarium (Estilo Amano)
+
+Inspirado nas paisagens naturais popularizadas por Takashi Amano, esse estilo geralmente usa iluminação um pouco mais suave (30-50 μmol/m²/s) para preservar a estética natural e evitar crescimento agressivo demais das plantas de fundo, que devem parecer "encontradas", não forçadas.
+
+### Iwagumi
+
+Composições minimalistas centradas em rochas e um tapete denso de plantas curtas (como Hemianthus callitrichoides) exigem iluminação alta e muito uniforme — 50-70 μmol/m²/s distribuídos igualmente por toda a superfície, já que qualquer sombra gera falhas visíveis no tapete.
+
+## Conclusão
+
+A iluminação é o fator que mais separa um aquário plantado mediano de um aquascape realmente vibrante. Espectro adequado, intensidade calibrada ao tipo de planta e fotoperíodo consistente formam a base — mas o equilíbrio com CO2 e nutrientes é o que sustenta os resultados no longo prazo.
+
+Comece identificando a intensidade necessária para as plantas que você pretende cultivar, invista em uma luminária com bom espectro nas faixas vermelha e azul, e ajuste gradualmente observando como as plantas respondem. Paciência e observação valem mais do que qualquer equipamento caro comprado às pressas.

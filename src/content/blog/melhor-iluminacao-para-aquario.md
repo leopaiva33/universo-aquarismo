@@ -210,4 +210,23 @@ Reflexores ou difusores direcionam luz para baixo em vez de perder pelas laterai
 
 ### Suportes e Suspensão
 
-Sistemas de suspensão (pendentes) oferecem ajuste fácil de altura conforme plantas crescem. Cabos de aço inox suport
+Sistemas de suspensão (pendentes) oferecem ajuste fácil de altura conforme plantas crescem. Cabos de aço inox suportam o peso da luminária sem flexionar, mantendo a distância da água constante mesmo em aquários sem tampa. A maioria dos kits aceita luminárias de até 5-8kg, suficiente para os modelos LED mais robustos do mercado.
+
+Para quem prefere instalação fixa, suportes de vidro ou acrílico presos à borda do aquário são mais discretos, mas exigem reposicionamento manual sempre que a distância da água precisar ser ajustada — algo comum durante a fase de crescimento das plantas.
+
+## Conclusão
+
+Não existe uma "melhor iluminação para aquário" universal — existe a melhor iluminação para o seu aquário específico, considerando profundidade, tipo de habitantes e orçamento disponível. Para a grande maioria dos casos, um LED de qualidade com controle de espectro entrega o melhor equilíbrio entre custo, eficiência e resultado.
+
+Comece definindo se o seu aquário é comunitário, plantado ou marinho, calcule o PAR necessário usando as tabelas deste guia e invista em uma marca com suporte técnico e disponibilidade de peças no Brasil. O resultado — plantas vigorosas, peixes com cores vivas e água equilibrada — compensa o investimento inicial em poucos meses.
+
+## Perguntas Frequentes
+
+**Qual a diferença prática entre LED e HQI?**
+O LED consome até 10x menos energia, gera muito menos calor e dura 5x mais horas que o HQI. O HQI só se justifica em aquários marinhos muito profundos (acima de 80cm) onde a penetração de luz é crítica.
+
+**Vale a pena comprar uma luminária LED barata?**
+Depende do aquário. Para peixes sem plantas exigentes, sim. Para plantados ou marinhos, LEDs genéricos costumam ter espectro pobre em vermelho e azul, resultando em crescimento fraco das plantas mesmo com potência aparentemente suficiente.
+
+**Quanto tempo dura uma luminária LED de aquário?**
+Entre 8 e 15 anos em uso diário de 8-10 horas, considerando marcas de qualidade. A intensidade cai gradualmente após o quarto ou quinto ano, então monitore o crescimento das plantas como indicador.
