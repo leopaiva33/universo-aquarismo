@@ -2,7 +2,7 @@
 title: "Como Escolher Iluminação para Aquário: Guia Completo"
 description: "Descubra como escolher iluminação para aquário ideal: tipos de lâmpadas, intensidade, espectro e tempo corretos para peixes e plantas."
 pubDate: 2026-07-15
-category: "Equipamentos"
+category: "Iluminação LED"
 tags: [iluminacao-aquario, lampadas-aquario, plantas-aquaticas, setup-aquario, equipamentos-aquarismo, led-aquario, espectro-luz]
 readTime: 12
 featured: false

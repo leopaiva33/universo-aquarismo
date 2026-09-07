@@ -2,7 +2,7 @@
 title: "Melhor Iluminação para Aquário: Guia Completo 2026"
 description: "Descubra a melhor iluminação para aquário com análises detalhadas de LED, fluorescente e HQI. Compare modelos e escolha o ideal."
 pubDate: 2026-07-01
-category: "Equipamentos"
+category: "Iluminação LED"
 tags: [iluminacao-aquario, led-aquario, equipamentos-aquario, aquario-plantado, iluminacao-led, aquarismo-iniciante, aquario-marinho]
 readTime: 12
 featured: true
@@ -230,3 +230,12 @@ Depende do aquário. Para peixes sem plantas exigentes, sim. Para plantados ou m
 
 **Quanto tempo dura uma luminária LED de aquário?**
 Entre 8 e 15 anos em uso diário de 8-10 horas, considerando marcas de qualidade. A intensidade cai gradualmente após o quarto ou quinto ano, então monitore o crescimento das plantas como indicador.
+
+**Quantas horas de luz por dia o aquário precisa?**
+Entre 8 e 10 horas é o ideal para a maioria dos aquários plantados. Aquários sem plantas podem funcionar com 6-8 horas. Evite mais de 10 horas — o risco de algas aumenta significativamente.
+
+**Posso usar iluminação forte sem CO2?**
+Não é recomendado. Muita luz sem CO2 cria desequilíbrio: as algas aproveitam o excesso de energia que as plantas não conseguem absorver. Se não usa CO2, mantenha a luz em nível baixo a moderado.
+
+**O que é PAR e por que importa para o aquário?**
+PAR (Photosynthetically Active Radiation) mede a faixa de luz efetivamente usada pelas plantas na fotossíntese. É o parâmetro mais confiável para avaliar se uma luminária vai realmente nutrir suas plantas — muito mais útil do que watts ou lúmens isoladamente.

@@ -10,7 +10,7 @@ export const CATEGORIES: CategoryInfo[] = [
     slug: 'iluminacao-led',
     name: 'Iluminação LED',
     icon: '💡',
-    description: 'Guias sobre LED, luz e lâmpadas para aquário: como escolher, comparar tipos e configurar a iluminação certa para o seu tanque.',
+    description: 'Guias sobre LED, luz e lâmpadas para aquário: como escolher, comparar tipos, calhas, fitas, timers e configurar a iluminação certa para o seu tanque.',
   },
   {
     slug: 'plantas-aquaticas',
@@ -29,12 +29,6 @@ export const CATEGORIES: CategoryInfo[] = [
     name: 'Peixes',
     icon: '🐟',
     description: 'Fotoperíodo e iluminação ideal para o bem-estar e as cores dos peixes, de tropicais a discus.',
-  },
-  {
-    slug: 'equipamentos',
-    name: 'Equipamentos',
-    icon: '🔧',
-    description: 'Luminárias, calhas, fitas de LED, timers e reviews de equipamentos para aquário por tamanho e orçamento.',
   },
 ];
 
