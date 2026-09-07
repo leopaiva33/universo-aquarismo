@@ -3,5 +3,12 @@
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "framework": "astro",
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/blog/melhor-iluminacao-para-aquario-plantado", "destination": "/blog/iluminacao-para-aquario-plantado", "permanent": true },
+    { "source": "/blog/qual-a-melhor-iluminacao-para-aquario-plantado", "destination": "/blog/iluminacao-para-aquario-plantado", "permanent": true },
+    { "source": "/blog/melhor-iluminacao-plantas-aquaticas", "destination": "/blog/iluminacao-para-aquario-plantado", "permanent": true },
+    { "source": "/blog/iluminacao-para-coral", "destination": "/blog/luz-para-coral", "permanent": true },
+    { "source": "/blog/led-para-aquario-barato", "destination": "/blog/led-para-aquario-custo-beneficio", "permanent": true }
+  ]
 }

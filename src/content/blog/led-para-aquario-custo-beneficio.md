@@ -242,6 +242,20 @@ LEDs de qualidade duram entre 30.000 e 50.000 horas de uso. Com fotoperíodo de 
 
 Não. LEDs são extremamente eficientes, consumindo 60-80% menos energia que fluorescentes. Uma luminária LED de 30W usada 8 horas diárias consome cerca de 7,2 kWh mensais, custando aproximadamente R$ 6 a R$ 8 por mês (considerando tarifa de R$ 0,85/kWh). O baixo consumo é um dos principais fatores que tornam o LED mais econômico no longo prazo, mesmo com um investimento inicial maior que o de fluorescentes ou lâmpadas genéricas.
 
+## Faixas de Preço e Expectativas Realistas
+
+Entender o que cada faixa de preço realmente entrega evita tanto o desperdício quanto a decepção com equipamento subdimensionado.
+
+**Até R$ 80:** LEDs simples de encaixe, adequados para aquários pequenos (até 40 litros) sem plantas exigentes.
+
+**R$ 80 a R$ 150:** Melhor relação custo-benefício para a maioria dos casos — controle básico de intensidade e espectro adequado para aquários de 60 a 100 litros.
+
+**R$ 150 a R$ 300:** Timer integrado e múltiplos canais de cor, ideal para aquários plantados de médio porte.
+
+**Acima de R$ 300:** Recursos avançados (app, simulação de nascer/pôr do sol) que se justificam apenas para projetos específicos ou aquascaping sério.
+
+Para a maioria dos aquaristas, a faixa de R$ 80 a R$ 150 entrega o melhor equilíbrio entre custo e resultado.
+
 ## Conclusão
 
 O melhor custo-benefício em iluminação para aquário não é o equipamento mais barato — é aquele que entrega o PAR e o espectro necessários pelo menor custo total ao longo dos anos, somando compra, energia e reposições. Um LED de qualidade intermediária, bem dimensionado para o seu aquário, quase sempre vence tanto a opção mais barata quanto a mais cara nessa conta.

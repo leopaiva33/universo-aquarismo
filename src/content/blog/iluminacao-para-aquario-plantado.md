@@ -82,6 +82,16 @@ Podemos classificar iluminação para aquários plantados em três categorias:
 
 Para quem não possui medidor PAR, uma aproximação útil: 30-40 lúmens por litro para iluminação média, considerando refletores eficientes e lâmpadas apropriadas.
 
+### Plantas por Nível de Exigência de Luz
+
+Usar espécies conhecidas como referência ajuda a calibrar a intensidade sem precisar de medidor:
+
+**Baixa luz (< 30 μmol/m²/s):** Anubias (barteri, nana, petite), Microsorum, Java Moss, Cryptocoryne, Bolbitis heudelotii. Não exigem CO2 injetado nem fertilização intensa.
+
+**Média luz (30-50 μmol/m²/s):** Echinodorus, Hygrophila, Vallisneria, Rotala rotundifolia, Cabomba caroliniana. Beneficiam-se de fertilização regular.
+
+**Alta luz (50+ μmol/m²/s):** Hemianthus callitrichoides (HC), Eleocharis parvula, Glossostigma elatinoides, Riccia fluitans, Rotala wallichii. Exigem CO2 injetado e fertilização completa.
+
 ## Escolhendo a Temperatura de Cor
 
 Temperatura de cor, medida em Kelvin (K), descreve a aparência da luz: tons mais quentes (amarelados) ou frios (azulados).

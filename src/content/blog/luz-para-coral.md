@@ -10,7 +10,7 @@ draft: false
 heroImage: "../../assets/blog/luz-para-coral.jpg"
 ---
 
-A iluminação representa um dos pilares fundamentais para o sucesso de um aquário de corais. Diferente dos peixes, que dependem principalmente da qualidade da água e alimentação, os corais fotossintéticos estabelecem uma relação simbiótica com zooxantelas — algas microscópicas que vivem em seus tecidos e necessitam de luz específica para produzir energia.
+A iluminação representa um dos pilares fundamentais para o sucesso de um aquário de corais. Diferente dos peixes, que dependem principalmente da qualidade da água e alimentação, os corais fotossintéticos estabelecem uma relação simbiótica com zooxantelas — algas microscópicas que vivem em seus tecidos e necessitam de luz específica para produzir energia. Essa parceria é responsável por até 90% da energia que o coral utiliza para crescer e se manter saudável.
 
 Escolher a luz adequada vai muito além de simplesmente iluminar o aquário. Trata-se de replicar as condições encontradas nos recifes naturais, onde a intensidade luminosa, o espectro de cores e o fotoperíodo trabalham em harmonia para manter os corais saudáveis e vibrantes.
 

@@ -143,17 +143,9 @@ O mercado oferece diversas alternativas. Como a Maxspect se posiciona?
 
 A Maxspect equilibra performance profissional com preço razoável. Não é a mais barata, nem a mais cara. É a escolha inteligente para quem valoriza resultados consistentes sem pagar premium de marca.
 
-## Resultados Reais com Maxspect LED
+## O Que Esperar na Prática
 
-Depoimentos de aquaristas experientes revelam o impacto prático.
-
-**Aquários plantados**: "Troquei minha Chihiros por uma Recurve 90. Em 3 semanas, minhas Rotala deixaram de crescer pernaltas. Hoje tenho carpet denso de HC Cuba que nunca consegui antes." - Ricardo M., São Paulo
-
-**Sistemas marinhos**: "Ethereal 160 transformou meu reef de 300L. Acroporas que apenas sobreviviam agora crescem 2cm por mês. Cores que só via em lojas profissionais." - Fernanda L., Curitiba
-
-**Eficiência energética**: "Substituí 2x150W T5 por uma Ethereal 160. Consumo caiu 30%, PAR aumentou 40%. O investimento se pagou em 18 meses só na economia de energia." - João P., Rio de Janeiro
-
-Estes relatos repetem-se consistentemente: crescimento acelerado, cores intensificadas, redução de algas (quando sistema está balanceado) e satisfação de longo prazo.
+Relatos consistentes de aquaristas que migraram para a linha apontam em uma direção comum: crescimento mais rápido de plantas e corais, cores mais intensas e redução no consumo de energia comparado a T5 ou HQI — desde que o sistema já esteja com fertilização, CO2 ou parâmetros de água equilibrados. A luminária mais potente do mercado não compensa um aquário desbalanceado nos demais fatores.
 
 ## Onde Comprar Maxspect LED Aquário no Brasil
 
