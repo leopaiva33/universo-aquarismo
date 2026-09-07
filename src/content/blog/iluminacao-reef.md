@@ -2,12 +2,12 @@
 title: "Iluminação Reef: Guia Completo para Corais Saudáveis"
 description: "Descubra como escolher a iluminação reef ideal para seu aquário marinho. Guia completo com tecnologias, intensidade e espectro correto."
 pubDate: 2026-06-08
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [iluminacao-reef, aquario-marinho, corais, led-aquario, equipamentos-reef, espectro-luz,par-aquario]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-reef.jpg"
+heroImage: "../../assets/blog/iluminacao-reef.jpg"
 ---
 
 A iluminação determina o sucesso ou fracasso de um aquário reef. Sem a luz adequada, corais perdem coloração, param de crescer e eventualmente morrem. Com o sistema correto, você testemunha um jardim submarino vibrante que cresce consistentemente.

@@ -2,12 +2,12 @@
 title: "Iluminação para Aquário de Peixes: Guia Completo 2026"
 description: "Descubra como escolher a iluminação ideal para aquário de peixes, tipos de lâmpadas, intensidade e período correto para plantas e peixes saudáveis."
 pubDate: 2026-06-11
-category: "equipamentos"
+category: "Peixes"
 tags: [iluminacao-aquario, luz-para-peixes, lampadas-aquario, iluminacao-led, cuidados-aquario, equipamentos-aquarismo, plantas-aquaticas]
 readTime: 12
-featured: false
+featured: true
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-de-peixes.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-de-peixes.jpg"
 ---
 
 A iluminação é um dos elementos mais subestimados no aquarismo. Muitos iniciantes acreditam que a luz serve apenas para enxergar os peixes, mas a realidade é bem diferente. 

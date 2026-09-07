@@ -2,12 +2,12 @@
 title: "LED para Aquário Plantado: Guia Completo de Escolha"
 description: "Descubra como escolher o melhor LED para aquário plantado. Lumens, espectro, PAR e as melhores marcas para plantas aquáticas saudáveis."
 pubDate: 2026-05-21
-category: "equipamentos"
+category: "Plantas Aquáticas"
 tags: [led-aquario-plantado, iluminacao-aquario, plantas-aquaticas, aquapaisagismo, equipamentos-aquario, fotossintese-plantas, led-aquario]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-para-aquario-plantado.jpg"
+heroImage: "../../assets/blog/led-para-aquario-plantado.jpg"
 ---
 
 A iluminação adequada representa o coração de qualquer aquário plantado bem-sucedido. Sem luz de qualidade, mesmo as plantas mais resistentes definham lentamente. 

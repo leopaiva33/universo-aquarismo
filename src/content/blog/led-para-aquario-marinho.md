@@ -2,12 +2,12 @@
 title: "LED para Aquário Marinho: Guia Completo de Escolha"
 description: "Descubra como escolher o melhor LED para aquário marinho. Espectro, PAR, temperatura de cor e recomendações para corais e peixes."
 pubDate: 2026-06-02
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [led-para-aquario-marinho, iluminacao-aquario, aquario-marinho, iluminacao-corais, equipamentos-aquario, reef-tank, aquarismo-marinho]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/led-para-aquario-marinho.jpg"
+heroImage: "../../assets/blog/led-para-aquario-marinho.jpg"
 ---
 
 A iluminação é o coração pulsante de um aquário marinho saudável. Diferente dos sistemas de água doce, o ambiente marinho demanda não apenas luz para visibilidade, mas espectros específicos que sustentam a vida dos corais e invertebrados fotossintéticos.

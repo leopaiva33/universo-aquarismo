@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+const lastUpdated = '12 de julho de 2026';
+---
+
+<Layout
+  title="Política de Privacidade — Universo Aquarismo"
+  description="Saiba como o Universo Aquarismo trata dados, cookies, publicidade e links de afiliados no site."
+>
+  <section class="page-hero">
+    <div class="container--narrow">
+      <h1>🔒 Política de Privacidade</h1>
+      <p>Última atualização: {lastUpdated}</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container--narrow prose">
+      <h2>Quais dados coletamos</h2>
+      <p>
+        Utilizamos o Google Analytics para entender de forma agregada e anônima como os
+        visitantes usam o site (páginas visitadas, tempo de leitura, origem do tráfego).
+        Não coletamos dados pessoais a menos que você os envie voluntariamente, por exemplo
+        ao se inscrever na newsletter ou ao nos contatar por e-mail.
+      </p>
+      <h2>Cookies</h2>
+      <p>
+        O site pode usar cookies para funcionamento de analytics e, eventualmente, para
+        exibição de anúncios. Você pode desativar cookies nas configurações do seu navegador
+        a qualquer momento.
+      </p>
+      <h2>Links de afiliados</h2>
+      <p>
+        O Universo Aquarismo participa de programas de afiliados. Ao clicar em alguns links
+        de produtos e efetuar uma compra, podemos receber uma comissão, sem custo adicional
+        para você. Isso não afeta o preço que você paga nem influencia nossas recomendações.
+      </p>
+      <h2>Publicidade</h2>
+      <p>
+        Podemos exibir anúncios de terceiros (como Google AdSense) para manter o site
+        gratuito. Esses parceiros podem usar cookies próprios para personalizar anúncios.
+      </p>
+      <h2>Contato</h2>
+      <p>
+        Dúvidas sobre esta política? Escreva para
+        <a href="mailto:contato@universoaquarista.com">contato@universoaquarista.com</a>
+        ou visite nossa página de <a href="/contato">Contato</a>.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+.page-hero {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 3rem 2rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.page-hero p {
+  color: var(--color-muted);
+  font-size: 1.05rem;
+}
+
+.page-content {
+  padding-block: 3rem 5rem;
+}
+</style>

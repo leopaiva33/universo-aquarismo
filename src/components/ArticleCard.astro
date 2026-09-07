@@ -1,4 +1,7 @@
 ---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
 interface Props {
   title: string;
   description: string;
@@ -7,7 +10,7 @@ interface Props {
   category?: string;
   readTime?: number;
   featured?: boolean;
-  heroImage?: string;
+  heroImage?: ImageMetadata;
 }
 
 const { title, description, slug, pubDate, category = 'Aquarismo', readTime = 5, featured = false, heroImage } = Astro.props;
@@ -22,7 +25,16 @@ const formattedDate = pubDate.toLocaleDateString('pt-BR', {
 <article class:list={['card', { 'card--featured': featured }]}>
   {heroImage && (
     <a href={`/blog/${slug}`} class="card-image" aria-hidden="true" tabindex="-1">
-      <img src={heroImage} alt={title} loading="lazy" />
+      <Image
+        src={heroImage}
+        alt={title}
+        width={400}
+        height={225}
+        widths={[300, 400, 600]}
+        sizes="(min-width: 768px) 300px, 100vw"
+        loading="lazy"
+        format="webp"
+      />
     </a>
   )}
   <div class="card-badge">{category}</div>

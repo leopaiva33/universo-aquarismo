@@ -2,12 +2,12 @@
 title: "Fita LED para Aquário: Guia Completo de Iluminação Aquática"
 description: "Descubra como escolher e instalar fita LED para aquário. Tipos, cores ideais, consumo e segurança para peixes e plantas."
 pubDate: 2026-06-19
-category: "equipamentos"
+category: "Equipamentos"
 tags: [fita-led-aquario, iluminacao-aquario, led-aquatico, equipamentos-aquario, iluminacao-plantas, aquapaisagismo]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/fita-led-para-aquario.jpg"
+heroImage: "../../assets/blog/fita-led-para-aquario.jpg"
 ---
 
 A iluminação transforma completamente um aquário. Não é apenas estética — influencia diretamente a saúde das plantas, o comportamento dos peixes e o equilíbrio biológico do sistema. Nos últimos anos, a fita LED se tornou uma alternativa popular às lâmpadas tradicionais, oferecendo versatilidade, economia e resultados surpreendentes.

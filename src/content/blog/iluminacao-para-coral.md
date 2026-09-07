@@ -2,12 +2,12 @@
 title: "Iluminação para Coral: Guia Completo 2026"
 description: "Descubra como escolher a iluminação para coral ideal. Tipos de lâmpadas, espectro, PAR e potência para corais saudáveis e coloridos."
 pubDate: 2026-06-03
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [iluminacao-para-coral, reef, corais, equipamentos-marinho, led-aquario, par-coral, espectro-luminoso]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-para-coral.jpg"
+heroImage: "../../assets/blog/iluminacao-para-coral.jpg"
 ---
 
 A iluminação representa o elemento mais crítico para o sucesso de um aquário de corais. Sem luz adequada, mesmo os corais mais resistentes entram em declínio.

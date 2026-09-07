@@ -2,12 +2,12 @@
 title: "Luz para Coral: Guia Completo para Escolher a Ideal"
 description: "Descubra qual luz para coral funciona melhor no seu aquário. Análise de tipos, intensidade, espectro e temperatura ideal."
 pubDate: 2026-06-04
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [luz-para-coral, iluminacao-aquario, corais-marinhos, aquario-marinho, equipamentos-aquario, reef-tank, led-aquario]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/luz-para-coral.jpg"
+heroImage: "../../assets/blog/luz-para-coral.jpg"
 ---
 
 A iluminação representa um dos pilares fundamentais para o sucesso de um aquário de corais. Diferente dos peixes, que dependem principalmente da qualidade da água e alimentação, os corais fotossintéticos estabelecem uma relação simbiótica com zooxantelas — algas microscópicas que vivem em seus tecidos e necessitam de luz específica para produzir energia.

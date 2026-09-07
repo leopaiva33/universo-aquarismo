@@ -106,6 +106,10 @@ UNSPLASH_USED_FILE = Path(__file__).parent / "unsplash_used.json"
 # Imagem padrão usada como fallback quando o Unsplash falha ou não encontra nova foto
 IMAGEM_PADRAO = PROJETO_ROOT / "public" / "images" / "blog" / "default.jpg"
 
+# Imagens de artigo ficam em src/assets/blog (processadas pelo pipeline de imagem
+# do Astro via schema.image() em content/config.ts) — NÃO em public/images/blog.
+DESTINO_IMAGENS = PROJETO_ROOT / "src" / "assets" / "blog"
+
 
 # ─── Supabase ─────────────────────────────────────────────────────────────────
 
@@ -170,7 +174,7 @@ O arquivo deve começar com frontmatter YAML exatamente neste formato:
 title: "[Título atrativo com a keyword, máximo 60 caracteres]"
 description: "[Meta description com keyword, 120-155 caracteres]"
 pubDate: {hoje}
-category: "[categoria relevante]"
+category: "[uma destas, exatamente como escrito: Iluminação LED | Plantas Aquáticas | Aquário Marinho | Peixes | Equipamentos]"
 tags: [lista de 5-7 tags relevantes em kebab-case]
 readTime: [número estimado de minutos de leitura]
 featured: false
@@ -254,18 +258,17 @@ def _buscar_foto_nova(query: str, usados: set[str]) -> dict | None:
 
 
 def _usar_imagem_padrao(slug: str) -> str:
-    """Copia a imagem padrão para o slug e retorna o caminho público."""
-    destino = PROJETO_ROOT / "public" / "images" / "blog"
-    destino.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(IMAGEM_PADRAO, destino / f"{slug}.jpg")
+    """Copia a imagem padrão para o slug e retorna o caminho de import relativo."""
+    DESTINO_IMAGENS.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(IMAGEM_PADRAO, DESTINO_IMAGENS / f"{slug}.jpg")
     log("🖼️  Usando imagem padrão (fallback).")
-    return f"/images/blog/{slug}.jpg"
+    return f"../../assets/blog/{slug}.jpg"
 
 
 def buscar_imagem_unsplash(keyword: str, slug: str) -> str:
-    """Busca foto inédita no Unsplash e salva em public/images/blog/{slug}.jpg.
+    """Busca foto inédita no Unsplash e salva em src/assets/blog/{slug}.jpg.
     Garante sempre um caminho de retorno — usa imagem padrão se o Unsplash falhar."""
-    destino = PROJETO_ROOT / "public" / "images" / "blog"
+    destino = DESTINO_IMAGENS
     destino.mkdir(parents=True, exist_ok=True)
 
     if not UNSPLASH_ACCESS_KEY:
@@ -297,8 +300,8 @@ def buscar_imagem_unsplash(keyword: str, slug: str) -> str:
 
         autor  = foto["user"]["name"]
         perfil = foto["user"]["links"]["html"]
-        log(f"🖼️  Imagem salva: public/images/blog/{slug}.jpg  (foto: {autor} — {perfil})")
-        return f"/images/blog/{slug}.jpg"
+        log(f"🖼️  Imagem salva: src/assets/blog/{slug}.jpg  (foto: {autor} — {perfil})")
+        return f"../../assets/blog/{slug}.jpg"
 
     except Exception as exc:
         log(f"⚠️  Erro no Unsplash ({exc}) — usando imagem padrão.")
@@ -356,9 +359,9 @@ def git_publicar(slug: str, keyword: str) -> bool:
 
     # Adiciona artigo, imagem e controle de IDs do Unsplash
     arquivos: list[str] = [f"src/content/blog/{slug}.md"]
-    img = PROJETO_ROOT / "public" / "images" / "blog" / f"{slug}.jpg"
+    img = DESTINO_IMAGENS / f"{slug}.jpg"
     if img.exists():
-        arquivos.append(f"public/images/blog/{slug}.jpg")
+        arquivos.append(f"src/assets/blog/{slug}.jpg")
     if UNSPLASH_USED_FILE.exists():
         arquivos.append(f"scripts/unsplash_used.json")
 

@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Contato — Universo Aquarismo"
+  description="Fale com o Universo Aquarismo: envie dúvidas, sugestões de pauta, correções ou propostas de parceria."
+>
+  <section class="page-hero">
+    <div class="container--narrow">
+      <h1>✉️ Fale com a gente</h1>
+      <p>Dúvidas sobre aquarismo, sugestões de pauta ou parcerias — mande sua mensagem.</p>
+    </div>
+  </section>
+
+  <section class="page-content">
+    <div class="container--narrow prose">
+      <p>
+        O jeito mais rápido de falar com o Universo Aquarismo é por e-mail. Respondemos
+        pessoalmente e priorizamos:
+      </p>
+      <ul>
+        <li>Dúvidas sobre iluminação, plantas ou equipamentos de aquário</li>
+        <li>Correções ou sugestões de melhoria em algum artigo</li>
+        <li>Sugestões de novos temas para cobrirmos</li>
+        <li>Propostas de parceria e imprensa</li>
+      </ul>
+      <p>
+        <a class="btn" href="mailto:contato@universoaquarista.com">contato@universoaquarista.com</a>
+      </p>
+      <p>
+        Antes de escrever, vale conferir se sua dúvida já foi respondida em algum dos nossos
+        <a href="/blog">artigos</a>.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+.page-hero {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 3rem 2rem;
+}
+
+.page-hero h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.page-hero p {
+  color: var(--color-muted);
+  font-size: 1.05rem;
+}
+
+.page-content {
+  padding-block: 3rem 5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.75rem;
+  background: var(--color-primary);
+  color: #0a0e1a;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn:hover { background: var(--color-secondary); color: #0a0e1a; }
+</style>

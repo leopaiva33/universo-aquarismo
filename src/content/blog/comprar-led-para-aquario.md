@@ -2,12 +2,12 @@
 title: "Comprar LED para Aquário: Guia Completo 2026"
 description: "Descubra como comprar LED para aquário ideal: potência, espectro, marcas confiáveis e preços. Guia prático para acertar na escolha."
 pubDate: 2026-07-03
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, led-aquario, equipamentos-aquario, plantas-aquaticas, aquario-plantado, manutencao-aquario, comprar-equipamentos]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/comprar-led-para-aquario.jpg"
+heroImage: "../../assets/blog/comprar-led-para-aquario.jpg"
 ---
 
 A iluminação LED revolucionou o aquarismo. Economiza energia, oferece espectros ideais para plantas e realça as cores dos peixes. Mas escolher o LED certo exige conhecimento técnico e atenção aos detalhes.

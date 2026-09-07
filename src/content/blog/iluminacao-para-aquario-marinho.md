@@ -2,12 +2,12 @@
 title: "Iluminação para Aquário Marinho: Guia Completo 2026"
 description: "Descubra como escolher a melhor iluminação para aquário marinho. Tipos de lâmpadas, potência ideal e dicas práticas para corais e peixes."
 pubDate: 2026-06-01
-category: "equipamentos"
+category: "Aquário Marinho"
 tags: [iluminacao-aquario-marinho, led-para-corais, lampadas-aquario, reef-lighting, equipamentos-marinhos, aquario-de-corais, iluminacao-led]
 readTime: 12
-featured: false
+featured: true
 draft: false
-heroImage: "/images/blog/iluminacao-para-aquario-marinho.jpg"
+heroImage: "../../assets/blog/iluminacao-para-aquario-marinho.jpg"
 ---
 
 A iluminação adequada representa um dos pilares fundamentais para o sucesso de qualquer aquário marinho. Diferente dos sistemas de água doce, onde a luz desempenha papel principalmente estético, nos aquários marinhos ela se torna questão de sobrevivência para corais e invertebrados fotossintéticos.

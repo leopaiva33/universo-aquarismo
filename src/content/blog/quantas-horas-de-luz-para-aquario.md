@@ -2,12 +2,12 @@
 title: "Quantas Horas de Luz para Aquário: Guia Completo 2026"
 description: "Descubra quantas horas de luz seu aquário precisa diariamente. Guia completo sobre fotoperíodo ideal para peixes e plantas."
 pubDate: 2026-06-12
-category: "equipamentos"
+category: "Peixes"
 tags: [iluminacao-aquario, fotoperodo, luz-aquario, manutencao-aquario, plantas-aquaticas, algas-aquario, cuidados-peixes]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/quantas-horas-de-luz-para-aquario.jpg"
+heroImage: "../../assets/blog/quantas-horas-de-luz-para-aquario.jpg"
 ---
 
 A iluminação é um dos pilares fundamentais para manter um aquário saudável. Tanto para os peixes quanto para as plantas aquáticas, a quantidade de luz diária determina processos biológicos essenciais.

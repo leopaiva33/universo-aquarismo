@@ -2,7 +2,7 @@
 title: "Luz Ideal para Peixes Tropicais: Guia Completo de Iluminação"
 description: "Descubra qual é a luz ideal para peixes tropicais: intensidade, espectro, fotoperíodo e como a iluminação correta melhora a saúde e as cores dos seus peixes."
 pubDate: 2026-05-19
-category: "Aquário Tropical"
+category: "Peixes"
 tags: ["peixes-tropicais", "iluminacao", "led", "aquario", "fotoperíodo", "bem-estar-peixes"]
 readTime: 10
 featured: false

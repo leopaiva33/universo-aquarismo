@@ -2,12 +2,12 @@
 title: "PAR no Aquário Marinho: Guia Completo de Iluminação"
 description: "Descubra como medir e ajustar o PAR no aquário marinho para manter corais saudáveis. Guia prático com valores ideais e equipamentos."
 pubDate: 2026-06-10
-category: "Equipamentos"
+category: "Aquário Marinho"
 tags: [par-aquario-marinho, iluminacao-aquario, corais, reef, equipamentos-aquarismo, led-aquario, parametros-agua]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/par-aquario-marinho.jpg"
+heroImage: "../../assets/blog/par-aquario-marinho.jpg"
 ---
 
 A iluminação é um dos pilares fundamentais para o sucesso de um aquário marinho com corais. Enquanto muitos aquaristas iniciantes focam apenas na potência das luminárias em watts, os mais experientes sabem que o PAR (Photosynthetically Active Radiation) é o verdadeiro indicador que determina se seus corais receberão a energia necessária para prosperar.

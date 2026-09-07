@@ -1,0 +1,179 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES } from '../../utils/categories';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+
+  return CATEGORIES.map(cat => {
+    const posts = allPosts
+      .filter(p => p.data.category === cat.name)
+      .sort((a, b) => Number(b.data.featured) - Number(a.data.featured) || b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    return {
+      params: { category: cat.slug },
+      props: { category: cat, posts },
+    };
+  });
+}
+
+const { category, posts } = Astro.props;
+const siteUrl = 'https://universoaquarista.com';
+const pageUrl = `${siteUrl}/categoria/${category.slug}`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'CollectionPage',
+      name: `${category.name} — Universo Aquarismo`,
+      description: category.description,
+      url: pageUrl,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Início', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Artigos', item: `${siteUrl}/blog` },
+        { '@type': 'ListItem', position: 3, name: category.name, item: pageUrl },
+      ],
+    },
+  ],
+};
+---
+
+<Layout
+  title={`${category.name} — Guias de Aquarismo`}
+  description={category.description}
+  canonical={pageUrl}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <section class="cat-hero">
+    <div class="container">
+      <p class="cat-breadcrumb"><a href="/blog">Artigos</a> / {category.name}</p>
+      <h1>{category.icon} {category.name}</h1>
+      <p class="cat-desc">{category.description}</p>
+    </div>
+  </section>
+
+  <section class="cat-content">
+    <div class="container">
+      <div class="grid">
+        {posts.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            description={post.data.description}
+            slug={post.slug}
+            pubDate={post.data.pubDate}
+            category={post.data.category}
+            readTime={post.data.readTime}
+            featured={post.data.featured}
+            heroImage={post.data.heroImage}
+          />
+        ))}
+      </div>
+
+      {posts.length === 0 && (
+        <div class="empty-state">
+          <p>🐟 Nenhum artigo publicado nesta categoria ainda.</p>
+        </div>
+      )}
+
+      <div class="cat-other">
+        <h2>Outras categorias</h2>
+        <div class="cat-links">
+          {CATEGORIES.filter(c => c.slug !== category.slug).map(c => (
+            <a href={`/categoria/${c.slug}`} class="cat-link">{c.icon} {c.name}</a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+.cat-hero {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding-block: 3rem 2rem;
+}
+
+.cat-breadcrumb {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-bottom: 0.75rem;
+}
+
+.cat-breadcrumb a {
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+.cat-breadcrumb a:hover { color: var(--color-primary); }
+
+.cat-hero h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.cat-desc {
+  color: var(--color-muted);
+  font-size: 1.05rem;
+  max-width: 65ch;
+}
+
+.cat-content {
+  padding-block: 3rem 5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem;
+  color: var(--color-muted);
+  font-size: 1.1rem;
+}
+
+.cat-other {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.cat-other h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cat-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.cat-link {
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.cat-link:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: rgba(0, 212, 255, 0.08);
+}
+</style>

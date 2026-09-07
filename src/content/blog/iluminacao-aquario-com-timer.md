@@ -2,12 +2,12 @@
 title: "Iluminação Aquário com Timer: Guia Completo 2026"
 description: "Descubra como a iluminação aquário com timer revoluciona seu hobby. Controle automático, economia e plantas saudáveis. Guia prático completo."
 pubDate: 2026-06-26
-category: "equipamentos"
+category: "Equipamentos"
 tags: [iluminacao-aquario, timer-aquario, automacao-aquario, iluminacao-plantado, equipamentos-aquarismo, led-aquario, controle-fotoperiodo]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/iluminacao-aquario-com-timer.jpg"
+heroImage: "../../assets/blog/iluminacao-aquario-com-timer.jpg"
 ---
 
 A iluminação adequada transforma completamente um aquário. Mas manter horários consistentes manualmente? Isso é quase impossível na correria do dia a dia.

@@ -2,12 +2,12 @@
 title: "Luz para Aquário de Discus: Guia Completo 2026"
 description: "Descubra a iluminação ideal para seu aquário de discus. Temperatura, intensidade e tipo de luz para manter seus peixes saudáveis e coloridos."
 pubDate: 2026-06-15
-category: "equipamentos"
+category: "Peixes"
 tags: [luz-para-aquario, discus, iluminacao-aquario, peixes-tropicais, aquario-plantado, equipamentos-aquarismo, cuidados-discus]
 readTime: 12
 featured: false
 draft: false
-heroImage: "/images/blog/luz-para-aquario-de-discus.jpg"
+heroImage: "../../assets/blog/luz-para-aquario-de-discus.jpg"
 ---
 
 A iluminação adequada pode fazer toda a diferença na saúde e coloração dos discus. Esses peixes amazônicos, conhecidos como "reis do aquário", exigem condições específicas que vão além da qualidade da água. A luz influencia diretamente seu comportamento, estresse e até mesmo a intensidade das cores vibrantes que tanto admiramos.
