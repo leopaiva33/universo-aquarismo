@@ -147,4 +147,12 @@ Aplicativos que usam câmera do smartphone prometem medições, mas a precisão 
 
 **Premium (R$ 4.000+):** Radion XR30 e EcoTech Radion dominam o segmento alto. Controle impecável via aplicativo, espectro otimizado e construção robusta justificam o investimento para aquaristas sérios. Orphek Atlantik compete nessa faixa com PAR excepcional para aquários profundos.
 
-**Médio-Alto (R$ 2.000-4.000
+**Médio-Alto (R$ 2.000-4.000):** Kessil A360X e AI Hydra 26/32HD equilibram PAR excepcional com preço mais acessível que o segmento premium. Excelente escolha para quem já tem experiência e quer resultado consistente sem pagar pelo topo de linha absoluto.
+
+**Entrada (até R$ 2.000):** Maxspect Recurve e Chihiros WRGB II atendem bem reef tanks de corais moles e LPS, com PAR suficiente para a maioria das espécies não-SPS. Boa porta de entrada para quem está migrando de água doce para marinho.
+
+## Conclusão
+
+O LED certo para um reef tank equilibra três fatores: PAR adequado às espécies de coral que você mantém, espectro com forte componente azul, e um orçamento que faça sentido para o seu nível de experiência. Não existe necessidade de começar no segmento premium — muitos reefs saudáveis prosperam com equipamento de entrada bem dimensionado.
+
+Aclimate sempre novos corais gradualmente, monitore a degradação do PAR ao longo dos anos e invista em um medidor (ou peça emprestado) antes de posicionar espécies mais exigentes. Esses cuidados importam mais para o sucesso do aquário do que a marca da luminária escolhida.

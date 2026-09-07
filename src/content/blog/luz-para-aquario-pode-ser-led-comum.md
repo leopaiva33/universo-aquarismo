@@ -182,4 +182,10 @@ Branco frio 6500K é superior para fotossíntese, mas combinação 70% frio + 30
 Entre 6-18 meses dependendo da proteção contra umidade. LEDs residenciais têm vida útil nominal de 15.000-25.000 horas, mas ambiente úmido reduz drasticamente devido à oxidação de componentes. LEDs aquarísticos duram 30.000-50.000 horas efetivas.
 
 **Aquário de beteira precisa de LED especial?**
-Não necessariamente. Aquários pequenos (5-20L) para betas sem plantas vivas funcionam
+Não necessariamente. Aquários pequenos (5-20L) para betas sem plantas vivas funcionam bem com LED comum de baixa potência, desde que protegido contra umidade. Se houver plantas vivas mesmo que de baixa exigência, um LED aquarístico básico já entrega resultado muito superior pelo mesmo custo aproximado.
+
+## Conclusão
+
+A resposta para "pode ser LED comum" é, na prática, "depende do que você espera do aquário". Para peixes sem plantas, um LED residencial bem posicionado resolve sem drama. Para qualquer projeto com plantas de exigência média a alta ou aquário marinho, o LED específico deixa de ser luxo e vira necessidade técnica.
+
+Avalie honestamente seus planos antes de economizar na iluminação: o dinheiro poupado hoje num LED genérico costuma se transformar em retrabalho e frustração alguns meses depois, quando as plantas simplesmente não crescem como deveriam.

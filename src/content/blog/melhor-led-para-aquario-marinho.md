@@ -214,4 +214,10 @@ Alguns modelos entregam resultados surpreendentes, especialmente para iniciantes
 
 ### Posso misturar diferentes marcas de LED?
 
-Sim, desde que você gerencie cada painel independentemente. A combinação funciona bem para aumentar cobertura ou PAR total. Evite confiar em sincronização automática entre marcas diferentes, pois ger
+Sim, desde que você gerencie cada painel independentemente. A combinação funciona bem para aumentar cobertura ou PAR total. Evite confiar em sincronização automática entre marcas diferentes, pois geralmente cada fabricante usa protocolo próprio de controle — programe os horários manualmente em cada aplicativo para manter consistência.
+
+## Conclusão
+
+Escolher o melhor LED para aquário marinho depende menos de qual marca tem mais recursos e mais de qual PAR e espectro atendem as espécies de coral que você pretende manter. Segmentos premium se justificam para SPS exigentes e aquaristas que já dominam o básico; equipamento de entrada bem dimensionado resolve muito bem para corais moles e LPS.
+
+Priorize marcas com boa documentação técnica de PAR, aclimate novos corais gradualmente independente do equipamento escolhido, e monitore a degradação da luminária ao longo dos anos para saber quando um upgrade realmente se justifica.

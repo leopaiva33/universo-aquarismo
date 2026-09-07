@@ -188,4 +188,10 @@ LEDs de qualidade mantêm eficiência por 30.000 a 50.000 horas de uso. Consider
 Tecnicamente funciona, mas não é recomendável. LEDs comerciais não oferecem espectro otimizado para fotossíntese, carecem de resistência à umidade e podem conter componentes que degradam rapidamente em ambiente úmido. O investimento em LED específico compensa pelos resultados.
 
 **Qual intensidade de LED preciso para carpete de plantas?**
-Plantas carpetes como *Hemianthus callitrichoides* e *Glossostigma elatinoides* exigem iluminação intensa - acima de 80-100 μmol/m²/s PAR no substrato. Isso geralmente requer LEDs de 50W+ em aquários de 60-80 litros, combinado
+Plantas carpetes como *Hemianthus callitrichoides* e *Glossostigma elatinoides* exigem iluminação intensa - acima de 80-100 μmol/m²/s PAR no substrato. Isso geralmente requer LEDs de 50W+ em aquários de 60-80 litros, combinado com CO2 pressurizado e fertilização diária para sustentar o ritmo de crescimento que essa intensidade exige.
+
+## Conclusão
+
+Comprar o LED certo para o seu aquário é decisão que vale a pena pesquisar antes de fechar negócio — o equipamento vai influenciar diretamente o sucesso das plantas, a saúde dos peixes e até a conta de luz pelos próximos anos. Priorize PAR real e espectro documentado pelo fabricante em vez de watts ou preço isoladamente.
+
+Defina primeiro o tipo de aquário e o nível de exigência das plantas que pretende manter, depois escolha o equipamento com base nisso. Essa ordem evita tanto o investimento insuficiente quanto o gasto desnecessário em recursos que você nunca vai usar.

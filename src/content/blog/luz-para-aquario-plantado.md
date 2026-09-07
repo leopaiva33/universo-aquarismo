@@ -196,4 +196,13 @@ Luminárias fluorescentes exigem troca de tubos a cada 8-10 meses, mesmo parecen
 ## Perguntas Frequentes
 
 **Posso usar luz branca comum no aquário plantado?**
-Tecnicamente sim, mas com resultados medíocres. Lâmpadas LED residenc
+Tecnicamente sim, mas com resultados medíocres. Lâmpadas LED residenciais carecem do pico vermelho (620-680nm) que as plantas usam intensamente na fotossíntese, resultando em crescimento lento e plantas estioladas buscando mais luz.
+
+**Quanto tempo leva para ver resultado depois de trocar a iluminação?**
+Entre 2 e 4 semanas para notar mudanças visíveis no crescimento e na coloração das plantas. Mudanças mais sutis, como redução de algas, podem levar até 6 semanas conforme o sistema se reequilibra.
+
+## Conclusão
+
+A luz certa para um aquário plantado combina três fatores que precisam trabalhar juntos: espectro adequado nas faixas vermelha e azul, intensidade compatível com as plantas escolhidas, e equilíbrio com CO2 e nutrientes proporcional a essa intensidade.
+
+Comece avaliando a exigência das plantas que pretende cultivar antes de escolher a luminária, ajuste gradualmente observando a resposta do aquário nas primeiras semanas, e resista à tentação de aumentar a luz só porque "parece pouco" — na maioria dos casos, o problema não é falta de luz, mas desequilíbrio nos outros dois vértices do triângulo.

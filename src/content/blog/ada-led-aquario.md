@@ -192,4 +192,4 @@ Se seu objetivo inclui competições, fotografia profissional ou simplesmente ex
 
 Comece avaliando honestamente suas necessidades. Aquário de 60cm com plantas fáceis? Talvez Aquasky Moon resolva perfeitamente. Layout de 120cm com carpete denso e plantas vermelhas? Solar RGB justifica cada centavo.
 
-O mercado de iluminação LED evoluiu enormemente. Hoje existem alternativas excelentes a custos menores. Mas quando se fala em ADA, você não compra apenas
+O mercado de iluminação LED evoluiu enormemente. Hoje existem alternativas excelentes a custos menores. Mas quando se fala em ADA, você não compra apenas uma luminária — compra décadas de engenharia dedicada exclusivamente ao aquascaping, e a tranquilidade de um equipamento que simplesmente funciona, ano após ano, sem surpresas.
