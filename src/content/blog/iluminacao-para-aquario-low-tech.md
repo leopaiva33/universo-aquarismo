@@ -223,4 +223,8 @@ LEDs degradam lentamente, perdendo 20-30% da intensidade ao longo de 3-5 anos. D
 **Iluminação colorida RGB prejudica plantas?**
 LEDs RGB produzem cores decorativas mas oferecem espectro pobre para fotossíntese. Use RGB apenas como iluminação complementar noturna (modo "moonlight"). Para crescimento de plantas, mantenha LEDs brancos 6.000-7.000K como fonte principal durante fotoperíodo diário.
 
-**
+## Conclusão
+
+Um aquário low-tech bem iluminado não precisa de equipamento caro ou configuração complexa — precisa de consistência. Intensidade moderada, fotoperíodo regular de 6 a 8 horas e um timer confiável resolvem a esmagadora maioria dos casos, mantendo plantas de baixa exigência saudáveis sem abrir espaço para algas.
+
+Resista à tentação de aumentar a luz só porque "parece pouco". No low-tech, menos costuma ser mais: o sistema se estabiliza melhor quando a iluminação acompanha o ritmo natural das plantas, sem forçar um crescimento que o aquário não tem como sustentar sem CO2 e fertilização adicionais.

@@ -131,4 +131,10 @@ Calhas com controle via aplicativo, simulação de clima e espectro ajustável c
 
 **Controle via aplicativo** oferece conveniência, mas não é essencial. Você pode obter resultados excelentes com equipamentos mais simples e disciplina manual. Por outro lado, se você viaja frequentemente ou mantém múltiplos aquários, a automação poupa tempo e garante consistência.
 
-**Espectro ajustável RGB**
+**Espectro ajustável RGB** vale a pena principalmente para quem cultiva plantas vermelhas ou busca realçar cores específicas de peixes. Para um aquário comunitário comum, uma calha full spectrum fixa já entrega resultado visual satisfatório sem o custo extra do controle por canal.
+
+## Conclusão
+
+A calha de LED certa para o seu aquário depende menos de recursos avançados e mais de três fatores básicos: potência adequada à profundidade do tanque, espectro com boa cobertura de vermelho e azul, e um fotoperíodo consistente controlado por timer.
+
+Comece pelo essencial — uma calha full spectrum dimensionada para o comprimento e a altura do seu aquário — e só depois considere upgrades como controle via aplicativo ou canais RGB independentes. Na prática, a maioria dos aquários plantados prospera muito bem com equipamento simples e bem ajustado.

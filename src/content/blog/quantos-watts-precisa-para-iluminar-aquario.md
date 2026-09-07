@@ -182,4 +182,6 @@ Não. Aquários apenas com peixes precisam de iluminação básica, principalmen
 
 Calcular quantos watts precisa para iluminar aquário envolve considerar múltiplos fatores além do volume de água. A tecnologia LED revolucionou a iluminação, tornando antigas regras obsoletas e exigindo nova abordagem baseada em lumens, PAR e espectro.
 
-Aquários comunitários simples funcionam bem com 0,15-0,30 watts/litro em LED. Plantados exigem 0,40-1,00 watts/litro dependendo das espécies. Marinhos variam
+Aquários comunitários simples funcionam bem com 0,15-0,30 watts/litro em LED. Plantados exigem 0,40-1,00 watts/litro dependendo das espécies. Marinhos variam ainda mais — de 0,50 watts/litro para peixes e rochas vivas até mais de 2,00 watts/litro para corais SPS exigentes.
+
+Use essas faixas como ponto de partida, não como regra absoluta. Meça o PAR real quando possível, observe a resposta das plantas ou corais nas primeiras semanas e ajuste gradualmente. O equipamento certo é aquele que entrega a intensidade que seus habitantes precisam — nem mais, nem menos.

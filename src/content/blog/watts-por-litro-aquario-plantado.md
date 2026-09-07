@@ -200,4 +200,10 @@ Tecnicamente sim, mas não é recomendado. LEDs domésticos não têm espectro o
 LEDs degradam mais lentamente, perdendo cerca de 10-15% da intensidade em 30.000 horas (quase 10 anos de uso diário). Você pode continuar usando, apenas ajustando o fotoperíodo ou adicionando uma segunda luminária se necessário. Trocas não são obrigatórias como nos fluorescentes.
 
 **Luz amarela ou branca: qual melhor para plantas?**
-O espectro completo (luz branca neutra, 6.500-7.000K) oferece o melhor equilíbrio entre fotossíntese eficiente e visualização natural das cores. Luzes muito amarelas (3.000-4.000K) favorecem algas marrons. Luzes muito azuis (10.000K+
+O espectro completo (luz branca neutra, 6.500-7.000K) oferece o melhor equilíbrio entre fotossíntese eficiente e visualização natural das cores. Luzes muito amarelas (3.000-4.000K) favorecem algas marrons. Luzes muito azuis (10.000K+) deixam o ambiente com aparência antinatural para água doce e reduzem a proporção de vermelho necessária para a fotossíntese das plantas.
+
+## Conclusão
+
+A regra do "watt por litro" ainda serve como ponto de partida rápido, mas o LED moderno tornou esse cálculo menos confiável do que era na era das fluorescentes. Priorize o PAR real, o espectro (vermelho e azul) e a resposta visual das suas plantas ao invés de perseguir um número fixo de watts.
+
+Comece com uma estimativa conservadora, observe o aquário por 2-3 semanas e ajuste a intensidade ou o fotoperíodo conforme o crescimento das plantas e o aparecimento (ou não) de algas. Essa observação vale mais do que qualquer fórmula.

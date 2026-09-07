@@ -202,4 +202,6 @@ Não é recomendado. A luz solar é intensa demais e impossível de controlar, c
 
 ## Conclusão
 
-Definir quantas horas de luz seu aquário precisa é decisão fundamental para o sucesso do hobby
+Definir quantas horas de luz seu aquário precisa é decisão fundamental para o sucesso do hobby. Não existe um número mágico único — o fotoperíodo ideal depende do tipo de aquário, da presença de plantas e do quanto de luz ambiente já chega ao tanque.
+
+Como ponto de partida seguro, use 8 a 10 horas diárias para aquários plantados e 6 a 8 horas para aquários apenas com peixes, sempre com o auxílio de um timer. Ajuste gradualmente observando o comportamento das plantas e o surgimento (ou ausência) de algas — essas são as respostas mais confiáveis que o próprio aquário pode te dar.

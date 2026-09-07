@@ -276,4 +276,16 @@ Sensores de PAR automatizados ajustam a intensidade conforme a degradação das 
 ## Perguntas Frequentes
 
 **Posso usar luz de aquário de água doce para corais?**
-Não é recomendado. Luminárias de água doce geralmente não possu
+Não é recomendado. Luminárias de água doce geralmente não possuem componente azul suficiente (450-460nm) nem PAR elevado o bastante para sustentar a fotossíntese das zooxantelas. O resultado costuma ser corais pálidos, com crescimento lento ou branqueamento progressivo.
+
+**Quanto tempo leva para um coral se adaptar a uma nova luz?**
+Entre 2 e 4 semanas na maioria dos casos. Introduza a intensidade gradualmente — começando em 50-60% do nível-alvo — e aumente aos poucos observando a coloração e a expansão dos pólipos como indicadores de adaptação saudável.
+
+**PAR alto sempre significa coral mais saudável?**
+Não necessariamente. Cada espécie tem uma faixa ideal de PAR. Corais moles e LPS sofrem sob intensidade excessiva, enquanto SPS exigem PAR elevado para prosperar. Pesquisar a necessidade específica de cada espécie evita tanto luz insuficiente quanto queimaduras.
+
+## Conclusão
+
+Escolher a luz certa para corais é um equilíbrio entre intensidade, espectro azul e as necessidades específicas das espécies que você mantém. Não existe uma configuração universal — corais moles, LPS e SPS têm exigências de PAR muito diferentes entre si.
+
+Pesquise a necessidade de cada coral antes de comprá-lo, invista em uma luminária com PAR real documentado pelo fabricante e sempre aclimate novos corais gradualmente. Esses três cuidados evitam a maioria dos problemas de branqueamento e crescimento fraco no aquário marinho.
