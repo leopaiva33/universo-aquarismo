@@ -185,4 +185,10 @@ Após 2-3 anos de uso intenso, LEDs de qualidade inferior podem apresentar leve 
 
 Controladores inteligentes transformam o manejo. Modelos básicos com temporizador custam R$ 50-100 e garantem fotoperíodo consistente.
 
-Sistemas avançados como Neptonix ou Reef PI
+Sistemas avançados como Neptonix ou Reef PI oferecem controle profissional sobre múltiplos parâmetros — luz, temperatura, dosagem — em um único painel, voltados para quem já opera vários aquários ou sistemas marinhos de alta exigência.
+
+## Conclusão
+
+Escolher a iluminação certa para o seu aquário é decisão que se resolve respondendo três perguntas: que tipo de aquário você tem (comunitário, plantado ou marinho), qual a profundidade real até o substrato, e quanto você está disposto a investir em manutenção (CO2, fertilização, automação).
+
+Comece com um LED full spectrum de qualidade reconhecida, calcule o PAR necessário usando as referências deste guia, e ajuste gradualmente observando a resposta de plantas e peixes. Esse processo simples evita a grande maioria dos erros — e das frustrações — que aquaristas iniciantes enfrentam com iluminação.

@@ -181,4 +181,10 @@ Todos os modelos recentes incluem controle via aplicativo Syna-G (Bluetooth). N�
 A vida útil nominal é 50.000 horas. Em uso típico (10h/dia), isso representa 13+ anos. Porém, para aplicações críticas (SPS exigentes), recomenda-se considerar upgrade aos 5-7 anos quando LEDs atingem ~80% da intensidade original.
 
 **Maxspect LED serve para aquário de água doce e marinho?**
-Sim, totalmente. A linha Recurve funciona excelentemente em plantados e FOWLR. A Ethereal, embora otimizada para marinho, também pode ser usada em plant
+Sim, totalmente. A linha Recurve funciona excelentemente em plantados e FOWLR. A Ethereal, embora otimizada para marinho, também pode ser usada em plantados de alta exigência, já que seu PAR elevado atende até as espécies mais fotossinteticamente exigentes — basta ajustar o espectro via aplicativo para reduzir a predominância de azul.
+
+## Conclusão
+
+A Maxspect ocupa um espaço interessante no mercado brasileiro: entrega PAR e eficiência de marcas premium por um investimento intermediário, desde que você esteja disposto a lidar com a logística de importação ou pagar o adicional de um revendedor autorizado. Para aquaristas plantados ou marinhos que já superaram o estágio inicial, é uma opção que compensa pesquisar.
+
+Antes de comprar, confirme a compatibilidade de voltagem, verifique se há suporte técnico ou garantia local disponível, e escolha o modelo (Recurve ou Ethereal) de acordo com o tipo de aquário que você mantém — não apenas pela reputação da marca.

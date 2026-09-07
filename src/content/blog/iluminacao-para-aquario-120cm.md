@@ -180,4 +180,10 @@ Para montagens de baixa tecnologia, 2.000-3.000 lumens totais são suficientes. 
 
 ### Luminária de 90cm serve para aquário de 120cm?
 
-Funciona, mas cria zonas escuras nas extremidades (15cm de cada lado). Para plantas não-exigentes e decoração centrada, é aceitável. Aquários densamente
+Funciona, mas cria zonas escuras nas extremidades (15cm de cada lado). Para plantas não-exigentes e decoração centrada, é aceitável. Aquários densamente plantados de ponta a ponta, porém, precisam da largura completa de 120cm para evitar áreas de crescimento fraco nas bordas.
+
+## Conclusão
+
+Um aquário de 120cm exige planejamento mais cuidadoso de iluminação do que formatos menores, principalmente por causa da área maior a cobrir e da tendência a criar zonas de sombra nas extremidades. Priorize luminárias dimensionadas para o comprimento real do tanque, mesmo que custem mais que uma opção "quase do tamanho certo".
+
+Calcule o lumens ou PAR necessário com base no nível de exigência das plantas, considere duas luminárias menores ao invés de uma só se notar sombreamento central causado por decoração, e monitore o consumo energético — nesse porte de aquário, a diferença entre LED e tecnologias antigas se torna ainda mais significativa na conta de luz.

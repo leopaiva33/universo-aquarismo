@@ -194,4 +194,10 @@ Observe o crescimento das plantas. Crescimento lento com folhas pequenas e páli
 
 ### Devo usar luz branca ou colorida no aquário plantado?
 
-Para crescimento saudável e aparência natural, prefira full spectrum ou RGB ajustável. Luzes puramente azuis ou vermelhas distorcem cores e parecem artificiais. Sistemas modernos permitem ajustar intensidade de cada canal, equilibrando crescimento ótimo com estética agradável durante
+Para crescimento saudável e aparência natural, prefira full spectrum ou RGB ajustável. Luzes puramente azuis ou vermelhas distorcem cores e parecem artificiais. Sistemas modernos permitem ajustar intensidade de cada canal, equilibrando crescimento ótimo com estética agradável durante todo o fotoperíodo.
+
+## Conclusão
+
+O LED certo para um aquário plantado não é necessariamente o mais caro ou o mais potente — é aquele cujo espectro e PAR combinam com as plantas que você pretende cultivar. Um sistema full spectrum de qualidade intermediária resolve a grande maioria dos casos, desde que acompanhado de fotoperíodo consistente e, quando necessário, CO2 e fertilização proporcionais.
+
+Comece avaliando a demanda das suas plantas antes de escolher o equipamento, não o contrário. Essa ordem evita tanto o investimento insuficiente quanto o excesso de luz que só serve para alimentar algas.

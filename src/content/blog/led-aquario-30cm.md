@@ -182,4 +182,10 @@ Novas tecnologias podem valer o investimento. Modelos com controle via smartphon
 
 Expansão do aquário requer recálculo. Se você trocar para aquário de 40 ou 50cm, precisará de luminária compatível com as novas dimensões.
 
-Problemas recorrentes com o equipamento
+Problemas recorrentes com o equipamento — superaquecimento, falhas intermitentes, perda visível de intensidade antes do prazo esperado — também justificam substituição antecipada, mesmo que o LED ainda funcione parcialmente.
+
+## Conclusão
+
+Aquários de 30cm são compactos, mas isso não simplifica a escolha da iluminação — pelo contrário, o espaço reduzido exige atenção redobrada a superaquecimento e à distribuição uniforme de luz em uma área pequena. Um LED de 6-10W bem escolhido resolve a maioria dos casos, seja para peixes simples ou plantas de baixa a média exigência.
+
+Priorize luminárias compactas com boa dissipação de calor, use timer desde o primeiro dia e observe o crescimento das plantas nas primeiras semanas para calibrar intensidade e fotoperíodo. Nesse porte de aquário, pequenos ajustes fazem uma diferença desproporcional no resultado final.

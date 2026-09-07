@@ -188,4 +188,10 @@ Sempre considere o caminho que a luz precisa percorrer até alcançar as plantas
 
 ### Economizar em Iluminação de Qualidade
 
-LEDs baratos sem marca frequentemente usam diodos de baixa qualidade com espectro inadequado. Podem parecer brilh
+LEDs baratos sem marca frequentemente usam diodos de baixa qualidade com espectro inadequado. Podem parecer brilhantes ao olho humano, mas entregam pouco PAR real na faixa que as plantas efetivamente usam para fotossíntese — resultando em crescimento fraco apesar da luminária parecer potente.
+
+## Conclusão
+
+Não existe uma resposta única para "qual a melhor iluminação para aquário plantado" — a melhor opção depende do seu orçamento, do nível de exigência das plantas escolhidas e de quanto você está disposto a investir em CO2 e fertilização para acompanhar a intensidade da luz.
+
+Para a maioria dos aquaristas, um LED full spectrum de faixa intermediária (Chihiros ou Fluval Plant Spectrum) entrega o melhor equilíbrio entre custo e resultado. Reserve os sistemas premium como Twinstar ou ADA para quando você já tiver experiência suficiente para aproveitar cada watt investido.
