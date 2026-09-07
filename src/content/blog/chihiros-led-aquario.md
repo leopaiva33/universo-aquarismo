@@ -222,4 +222,14 @@ Use referências fotográficas de outros aquaristas com mesmo modelo para calibr
 
 ### Quanto tempo dura uma luminária Chihiros LED?
 
-Os LEDs Chihiros têm vida útil estimada em 50.000 horas de operação. Considerando fotoperíodo de 10 horas diárias, isto representa aproximadamente 13-14
+Os LEDs Chihiros têm vida útil estimada em 50.000 horas de operação. Considerando fotoperíodo de 10 horas diárias, isto representa aproximadamente 13-14 anos de uso antes de degradação significativa da intensidade.
+
+### Chihiros vale o investimento comparado a marcas mais baratas?
+
+Sim, na maioria dos casos. O custo-benefício vem da combinação entre PAR real documentado, controle via aplicativo confiável e disponibilidade de suporte/garantia no Brasil — algo que marcas genéricas sem distribuição oficial raramente oferecem.
+
+## Conclusão
+
+A Chihiros consolidou-se como uma das marcas favoritas de aquaristas plantados no Brasil justamente por equilibrar preço acessível, espectro bem calibrado e controle via aplicativo confiável. Para quem está montando um aquário plantado sério sem querer pagar o preço de marcas premium como ADA ou Twinstar, é uma escolha segura.
+
+Escolha o modelo pelo tamanho real do seu aquário, não arredonde para cima "só por garantia", e mantenha o aplicativo atualizado para evitar os bugs de conectividade mais comuns relatados por usuários.

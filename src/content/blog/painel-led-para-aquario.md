@@ -212,4 +212,10 @@ O custo de importação e taxas alfandegárias elevam significativamente o preç
 
 A disponibilidade de peças de reposição favorece marcas nacionais. Componentes importados podem demorar meses para chegar em caso de necessidade.
 
-Compatibilidade elétrica requer atenção em produtos importados. Verifique se a voltagem nominal
+Compatibilidade elétrica requer atenção em produtos importados. Verifique se a voltagem nominal é bivolt (110V/220V) antes de comprar — muitos painéis vendidos para o mercado asiático ou americano não funcionam corretamente na rede elétrica brasileira sem um transformador adicional.
+
+## Conclusão
+
+O painel LED é uma excelente opção para quem busca cobertura uniforme em aquários largos ou quer flexibilidade para criar zonas de intensidade diferenciada. A escolha entre um modelo nacional ou importado se resume a uma troca: suporte técnico rápido versus especificações técnicas mais avançadas.
+
+Para a maioria dos aquaristas, um painel nacional com boa reputação entrega resultado suficiente com muito menos dor de cabeça logística. Reserve os modelos importados para quando você já souber exatamente qual recurso técnico específico precisa e estiver disposto a lidar com prazos de importação.

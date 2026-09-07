@@ -268,4 +268,10 @@ Diferente de lâmpadas que queimam, LEDs perdem intensidade gradualmente. Após 
 
 ### Fitas RGB prejudicam plantas ou peixes?
 
-RGB de qualidade com espectro completo não prejudicam quando usadas
+RGB de qualidade com espectro completo não prejudicam quando usadas como complemento à iluminação principal branca. O problema surge quando o RGB substitui totalmente a luz branca em aquários plantados — cores decorativas puras raramente entregam PAR suficiente na faixa vermelha necessária para fotossíntese eficiente.
+
+## Conclusão
+
+A fita LED é a solução mais flexível e acessível para complementar a iluminação de um aquário, seja para destacar decoração, criar zonas de luz diferenciadas ou compor um sistema híbrido com a luminária principal. Escolher um produto com certificação IP adequada e espectro compatível com o objetivo evita a maioria dos problemas de durabilidade e resultado.
+
+Invista em uma fita de fabricante confiável, instale com folga para dissipação de calor e trate-a como complemento, não substituto, da iluminação principal em aquários plantados ou marinhos sérios.

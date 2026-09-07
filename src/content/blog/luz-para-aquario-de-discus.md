@@ -176,4 +176,10 @@ Evite mudanças bruscas na iluminação durante o período reprodutivo. Consist�
 Não é recomendado. Discus precisam de escuridão completa para descanso adequado. Luzes noturnas, mesmo azuis ou lunares, interferem no ciclo circadiano e podem causar estresse crônico.
 
 **Quantos watts de LED preciso para um aquário de 200 litros com discus?**
-Para discus sem plantas exigentes,
+Para discus sem plantas exigentes, 0,2-0,3W por litro em LED de boa qualidade já garante boa visualização sem estressar os peixes. Se o aquário tiver plantas de baixa a média demanda, aumente para 0,4-0,6W por litro e acompanhe a resposta das plantas.
+
+## Conclusão
+
+Discus são peixes sensíveis a mudanças bruscas, e a iluminação é um dos fatores mais subestimados no seu bem-estar. Luz moderada, vinda de cima, com fotoperíodo consistente e ajustes suaves durante períodos reprodutivos faz toda a diferença entre um cardume estressado e um grupo de peixes com cores vibrantes e comportamento natural.
+
+Priorize luminárias com boa dissipação de calor e espectro equilibrado, evite intensidade excessiva mesmo em aquários plantados, e lembre-se que para discus — mais do que para a maioria dos peixes — menos costuma ser mais.

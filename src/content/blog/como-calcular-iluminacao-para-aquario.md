@@ -277,4 +277,10 @@ Luz solar direta é incontrolável e favorece algas explosivamente. Sempre use i
 A maioria dos aquários plantados prospera com 8-10 horas de luz diária. Menos que 6 horas geralmente é insuficiente para fotossíntese adequada, enquanto mais de 12 horas favorece crescimento excessivo de algas. Aquários de alta tecnologia com CO2 podem usar 8-9 horas de luz intensa, enquanto low-tech preferem 6-8 horas de intensidade moderada.
 
 **Posso usar lumens de lâmpadas residenciais para calcular iluminação do aquário?**
-Sim, mas com ressalvas. Lumens são lumens independente da fonte, porém lâmpadas residenciais normalmente têm espectro inadequado (3.000K) e não são à prova d'água. Verifique se o espectro está entre 6
+Sim, mas com ressalvas. Lumens são lumens independente da fonte, porém lâmpadas residenciais normalmente têm espectro inadequado (3.000K) e não são à prova d'água. Verifique se o espectro está entre 6.500K e 8.000K antes de considerar qualquer lâmpada genérica — fora dessa faixa, o cálculo de lumens perde relevância prática para plantas aquáticas.
+
+## Conclusão
+
+Calcular a iluminação ideal para um aquário deixou de ser uma simples conta de "watts por litro" desde que o LED se tornou padrão. PAR, espectro e fotoperíodo juntos contam a história completa — watts e lumens isolados são apenas pontos de partida aproximados.
+
+Use as tabelas e fórmulas deste guia como referência inicial, mas ajuste sempre observando a resposta real das suas plantas nas primeiras semanas. Nenhum cálculo teórico substitui a observação direta do aquário.
