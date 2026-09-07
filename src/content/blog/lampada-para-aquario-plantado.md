@@ -218,4 +218,11 @@ LEDs de qualidade operam eficientemente por 30.000 a 50.000 horas. Em uso diári
 **Preciso de CO2 se usar iluminação forte?**
 Sim, absolutamente. Iluminação acima de 60 PAR acelera a fotossíntese dramaticamente. Sem CO2 suplementar (através de injeção ou líquido), as plantas não conseguem processar a energia luminosa disponível. Resultado: crescimento pobre e explosão de algas que aproveitam o desequilíbrio.
 
-**É poss
+**É possível ter aquário plantado sem injetar CO2?**
+Sim, mas apenas com iluminação baixa a moderada (até 40-50 PAR) e plantas de baixa exigência, como Anubias, Cryptocoryne e musgos. Luz forte sem CO2 suplementar cria desequilíbrio que favorece algas em vez de crescimento saudável das plantas.
+
+## Conclusão
+
+Escolher a lâmpada certa para um aquário plantado é, no fundo, uma questão de equilíbrio: intensidade compatível com as plantas escolhidas, espectro que cubra bem as faixas vermelha e azul, e disposição para acompanhar CO2 e fertilização proporcionalmente conforme a luz aumenta.
+
+Comece com uma luminária de intensidade baixa a moderada se está começando no aquarismo plantado, observe como as plantas respondem nas primeiras semanas, e só invista em mais potência quando realmente precisar. Essa progressão gradual evita a maioria dos problemas de algas que frustram iniciantes.

@@ -180,4 +180,12 @@ Aquários novos toleram 6-7 horas inicialmente, aumentando gradualmente para 8-1
 
 LEDs geram menos calor que fluorescentes, mas potências elevadas (30W+) podem elevar temperatura 1-2°C em aquários pequenos sem tampa. Isso raramente representa problema em ambientes climatizados (22-26°C). Se temperatura ultrapassar 28°C, aumente distância luminária-água para 20-25cm ou instale pequeno ventilador direcionado ao tanque. Verifique ventilação da luminária.
 
-### Preciso trocar a luminária LED com
+### Preciso trocar a luminária LED com o tempo?
+
+Não é obrigatório, mas a intensidade cai gradualmente — cerca de 20-30% após 3-5 anos de uso diário. Se notar plantas crescendo mais devagar sem outra explicação aparente, meça o PAR ou simplesmente considere a substituição como manutenção preventiva.
+
+## Conclusão
+
+Para um aquário de 50cm, o segredo não está em comprar a luminária mais potente disponível, mas em dimensionar corretamente a partir das plantas que você pretende cultivar. Um LED full spectrum de 18-25W atende a maioria dos casos, com margem para upgrade via dimmer se precisar de mais intensidade no futuro.
+
+Priorize marcas com boa disponibilidade de peças de reposição, instale um timer desde o primeiro dia e ajuste a altura de suspensão observando a resposta das plantas nas primeiras semanas. Esses três cuidados resolvem a grande maioria dos problemas de iluminação nesse formato de aquário.

@@ -279,4 +279,10 @@ O CO₂ começa 30 minutos antes para saturar a água quando a luz acende, e des
 
 ### Coordenação com Dosadoras
 
-Fertilizantes líquidos funcionam melhor quando dosados no início do fotoperiodo. Alguns aquaristas usam timers para bombas dosadoras automáticas, configurando-as para liberar nutrientes 15
+Fertilizantes líquidos funcionam melhor quando dosados no início do fotoperiodo. Alguns aquaristas usam timers para bombas dosadoras automáticas, configurando-as para liberar nutrientes 15-30 minutos antes da luz acender, garantindo que já estejam dissolvidos quando a fotossíntese começa.
+
+## Conclusão
+
+Um timer é, proporcionalmente, o equipamento mais barato e com maior retorno em qualquer aquário — resolve de uma vez o problema de fotoperíodo irregular, que é a causa raiz da maioria dos casos de algas, e ainda reduz significativamente a conta de luz.
+
+Comece com um timer mecânico simples se o orçamento for apertado, ou invista em um digital com múltiplos programas se quiser sincronizar luz, CO₂ e fertilização. Em qualquer dos casos, o retorno vem em semanas, não em anos.

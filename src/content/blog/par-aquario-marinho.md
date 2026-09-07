@@ -192,4 +192,10 @@ Esse ciclo não apenas é mais natural, mas também economiza energia e prolonga
 
 ### Ajustes Sazonais
 
-Alguns aquaristas avançados fazem ajustes sutis ao longo do ano, aumentando ligeiramente o PAR no verão e reduzindo no inverno, simulando variações
+Alguns aquaristas avançados fazem ajustes sutis ao longo do ano, aumentando ligeiramente o PAR no verão e reduzindo no inverno, simulando variações sazonais naturais que corais em recifes reais experimentam conforme o ângulo solar muda.
+
+## Conclusão
+
+O PAR é o parâmetro mais confiável para avaliar iluminação em aquários marinhos — muito mais útil que watts ou modelo de luminária isoladamente. Cada tipo de coral tem uma faixa ideal, e respeitar essa faixa através de aclimatação gradual é o que separa um reef tank saudável de um cheio de branqueamentos.
+
+Invista em um medidor de PAR (ou peça medições a quem já tem um) antes de posicionar corais novos, aclimate sempre gradualmente e ajuste a programação de luz para imitar ciclos naturais. Esses cuidados fazem mais diferença na saúde dos corais do que qualquer upgrade de equipamento.

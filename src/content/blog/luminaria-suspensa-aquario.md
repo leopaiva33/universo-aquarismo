@@ -254,4 +254,10 @@ Posicionar muito baixo concentra luz excessiva em área pequena. Cantos ficam es
 
 Muito alto dilui a intensidade. Plantas rasteiras sofrem especialmente nessa situação.
 
-Ajuste empiricamente observando
+Ajuste empiricamente observando o crescimento das plantas nas primeiras semanas após a instalação. Pequenos ajustes de 2-3cm na altura costumam ser suficientes para corrigir zonas de sombra ou excesso de intensidade.
+
+## Conclusão
+
+A luminária suspensa combina o melhor dos dois mundos: liberdade para manutenção sem obstáculos sobre o aquário e distribuição de luz mais uniforme que sistemas apoiados diretamente no vidro. O investimento extra em cabos e suportes se paga rapidamente em praticidade, principalmente em aquários grandes ou de exposição.
+
+Escolha um sistema de suspensão com boa capacidade de ajuste de altura, invista em automação apenas se realmente for usar os recursos, e mantenha a manutenção preventiva em dia — cabos, drivers e conexões elétricas merecem inspeção regular em qualquer configuração.

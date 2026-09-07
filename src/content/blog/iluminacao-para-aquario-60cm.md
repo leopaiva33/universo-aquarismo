@@ -190,4 +190,10 @@ A iluminação potente acelera estabelecimento do carpete, mas exige vigilância
 
 ### Posso usar luminária de aquário maior em um de 60cm?
 
-Sim, desde que a potência seja adequada. Luminárias maiores apenas garantem melhor distribuição de luz nas extremidades. Verifique se cabe fisicamente sobre o aquário e se a intensidade não é excessiva para
+Sim, desde que a potência seja adequada. Luminárias maiores apenas garantem melhor distribuição de luz nas extremidades. Verifique se cabe fisicamente sobre o aquário e se a intensidade não é excessiva para o volume — pode ser necessário afastar a luminária da superfície ou reduzir a intensidade via dimmer para evitar excesso de PAR.
+
+## Conclusão
+
+O aquário de 60cm é um dos formatos mais versáteis do aquarismo, e a iluminação ideal para ele varia bastante conforme o estilo escolhido — de um biotopo amazônico suave a um Iwagumi de alta intensidade. O ponto de partida seguro é uma luminária full spectrum entre 20 e 30W, ajustando a potência conforme o tipo de plantas e o nível de dedicação que você pretende dar à manutenção.
+
+Defina primeiro o estilo de aquário que quer montar, depois escolha a luminária com base nisso — não o contrário. Isso evita tanto o desperdício de comprar equipamento subutilizado quanto a frustração de plantas que não crescem por falta de luz adequada.
